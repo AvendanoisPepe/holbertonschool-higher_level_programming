@@ -13,3 +13,5 @@
 5-print_string.py - Imprime tres veces la misma cadena seguido de la longitud de la misma hasta el caracter numero 9. 
 
 6-concat.py - Concatena las dos cadenas y lo imprime.
+
+7-edges.py - Seleccionamos en ciertas variables cierta cantidad de caracteres y imprimimos
