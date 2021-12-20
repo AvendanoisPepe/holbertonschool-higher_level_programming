@@ -7,3 +7,7 @@
 2-print.py - Imprimos usando print
 
 3-print_number.py - Mandamos prinf conjunto con un formato de numero entero.
+
+4-print_float.py - Imprime un numero float, solo los dos digitos despues del punto
+
+5-print_string.py - Imprime tres veces la misma cadena seguido de la longitud de la misma hasta el caracter numero 9.
