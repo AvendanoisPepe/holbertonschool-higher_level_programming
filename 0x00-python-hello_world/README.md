@@ -15,3 +15,5 @@
 6-concat.py - Concatena las dos cadenas y lo imprime.
 
 7-edges.py - Seleccionamos en ciertas variables cierta cantidad de caracteres y imprimimos
+
+8-concat_edges.py - De cierta cadena escojemos ciertos rangos para imprimir el mensaje deseado.
