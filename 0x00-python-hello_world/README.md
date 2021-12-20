@@ -5,3 +5,5 @@
 1-run_inline - Guardamos la sentencia prinft en la variable $PYCODE y la imprimos con echo
 
 2-print.py - Imprimos usando print
+
+3-print_number.py - Mandamos prinf conjunto con un formato de numero entero.
