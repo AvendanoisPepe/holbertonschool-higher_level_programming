@@ -12,4 +12,4 @@
 
 5-print_comb2.py - Usando un ciclo for recorremos un rango de 0 a 99 en el cual tenemos una condicional donde verificos el ultimo digito para imprimir diferente, todos los numeros se imprimen de dos digitos.
 
-6-print_comb3.py -
+6-print_comb3.py - Verficamos todas las posibles combinaciones de dos digitos usando dos ciclos for cada uno verificando un digito.
