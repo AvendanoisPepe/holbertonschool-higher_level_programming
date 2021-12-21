@@ -19,3 +19,5 @@
 8-concat_edges.py - De cierta cadena escojemos ciertos rangos para imprimir el mensaje deseado.
 
 9-easter_egg.py -Usamos import para traer el modulo "this" que tiene predefinido el mensaje.
+
+100-write.py - Imprimo usando el modulo sys, verificando con la salida de error y imprimiendo con write.
