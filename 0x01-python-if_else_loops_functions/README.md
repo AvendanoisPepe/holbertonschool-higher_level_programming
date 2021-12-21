@@ -19,3 +19,5 @@
 8-uppercase.py - Recorriendo el str que es un parametro mandado para la funcion uppercase buscamos los caracteres en minusculas en str con una condicional y cuando lo hayamos guardamos en una variable su version contraria convirtiendo el comparador entero a un caracter y imprimiendo.
 
 9-print_last_digit.py - Sacamos el ultimo dijito de diferentes numeros y los imprimimos juntos.
+
+10-add.py - Returno la suma y ya we no mames xd ajajajaj.
