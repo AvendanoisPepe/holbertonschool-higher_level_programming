@@ -11,3 +11,5 @@
 4-print_hexa.py - Usando un ciclo for recorremos un rango de 0 a 99 en el cual imprimos su version decimal y si version hexadecimal usando hex() para convertir el numero.
 
 5-print_comb2.py - Usando un ciclo for recorremos un rango de 0 a 99 en el cual tenemos una condicional donde verificos el ultimo digito para imprimir diferente, todos los numeros se imprimen de dos digitos.
+
+6-print_comb3.py -
