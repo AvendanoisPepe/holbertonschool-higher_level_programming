@@ -17,3 +17,5 @@
 7-edges.py - Seleccionamos en ciertas variables cierta cantidad de caracteres y imprimimos
 
 8-concat_edges.py - De cierta cadena escojemos ciertos rangos para imprimir el mensaje deseado.
+
+9-easter_egg.py -Usamos import para traer el modulo "this" que tiene predefinido el mensaje.
