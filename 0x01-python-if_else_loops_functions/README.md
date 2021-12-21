@@ -15,3 +15,5 @@
 6-print_comb3.py - Verficamos todas las posibles combinaciones de dos digitos usando dos ciclos for cada uno verificando un digito.
 
 7-islower.py - Usando la funcion islower que recibe como parametro una letra la cual comparamos con ord lo que llega por parametro con lo predefinido por la condicional para saber si es verdadero o falso.
+
+8-uppercase.py - Recorriendo el str que es un parametro mandado para la funcion uppercase buscamos los caracteres en minusculas en str con una condicional y cuando lo hayamos guardamos en una variable su version contraria convirtiendo el comparador entero a un caracter y imprimiendo.
