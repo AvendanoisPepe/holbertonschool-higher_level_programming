@@ -29,3 +29,5 @@
 100-print_tebahpla.py - Intercalando de dos en dos va imprimiendo el abacedario al reves.
 
 101-remove_char_at.py - Reemplazamos el caracter n de la cadena str.
+
+102-magic_calculation.py - la intranet da la respuesta :v
