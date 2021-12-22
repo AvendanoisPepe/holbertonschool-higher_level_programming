@@ -21,3 +21,5 @@
 9-print_last_digit.py - Sacamos el ultimo dijito de diferentes numeros y los imprimimos juntos.
 
 10-add.py - Returno la suma y ya we no mames xd ajajajaj.
+
+11-pow.py - Retorno la elevacion de "a" a la "b" y ya :v
