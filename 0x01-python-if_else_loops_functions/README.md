@@ -23,3 +23,5 @@
 10-add.py - Returno la suma y ya we no mames xd ajajajaj.
 
 11-pow.py - Retorno la elevacion de "a" a la "b" y ya :v
+
+12-fizzbuzz.py - Si es modulo de tres imprime Fizz, modulo de 5 imprime Buzz y de los dos imprime las dos palabras si no imprime el numero como tal.
