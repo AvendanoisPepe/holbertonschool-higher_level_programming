@@ -14,11 +14,11 @@ if __name__ == "__main__":
 
     if opera is '+':
         print("{} {} {} = {}".format(a, opera, b, add(a, b)))
-    elif opera == '-':
+    elif opera is '-':
         print("{} {} {} = {}".format(a, opera, b, sub(a, b)))
-    elif opera == '*':
+    elif opera is '*':
         print("{} {} {} = {}".format(a, opera, b, mul(a, b)))
-    elif opera == '/':
+    elif opera is '/':
         print("{} {} {} = {}".format(a, opera, b, div(a, b)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
