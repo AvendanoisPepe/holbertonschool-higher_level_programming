@@ -12,7 +12,7 @@ if __name__ == "__main__":
     opera = sys.argv[2]
     b = int(sys.argv[3])
 
-    if opera == '+':
+    if opera is '+':
         print("{} {} {} = {}".format(a, opera, b, add(a, b)))
     elif opera == '-':
         print("{} {} {} = {}".format(a, opera, b, sub(a, b)))
