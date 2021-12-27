@@ -8,3 +8,5 @@
 3-infinite_add.py - Convertimos todos los argumentos recibidos en enteros y los sumamos.
 
 4-hidden_discovery.py - Imprimimos una lista de argumentos utilizando la funcion dir() y quitando el "__" del contenido de esa lista
+
+variable_load_5.py - importamos y ya we ._.
