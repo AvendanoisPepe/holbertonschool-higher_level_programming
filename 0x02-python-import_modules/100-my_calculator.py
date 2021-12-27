@@ -6,20 +6,20 @@ if __name__ == "__main__":
     cantidad = len(sys.argv)
     if cantidad != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        exit(1)
+        sys.exit(1)
 
     a = int(sys.argv[1])
     opera = sys.argv[2]
     b = int(sys.argv[3])
 
-    if opera is '+':
+    if opera == '+':
         print("{} {} {} = {}".format(a, opera, b, add(a, b)))
-    elif opera is '-':
+    elif opera == '-':
         print("{} {} {} = {}".format(a, opera, b, sub(a, b)))
-    elif opera is '*':
+    elif opera == '*':
         print("{} {} {} = {}".format(a, opera, b, mul(a, b)))
-    elif opera is '/':
+    elif opera == '/':
         print("{} {} {} = {}".format(a, opera, b, div(a, b)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
-        exit(1)
+        sys.exit(1)
