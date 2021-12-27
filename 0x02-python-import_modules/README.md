@@ -6,3 +6,5 @@
 2-args.py - Recorre el argv imprimiendo la cantidad de argumentos y la lista de los mismos.
 
 3-infinite_add.py - Convertimos todos los argumentos recibidos en enteros y los sumamos.
+
+4-hidden_discovery.py - Imprimimos una lista de argumentos utilizando la funcion dir() y quitando el "__" del contenido de esa lista
