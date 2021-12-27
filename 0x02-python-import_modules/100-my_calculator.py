@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import sys
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
+    import sys
 
     cantidad = len(sys.argv)
     if cantidad != 4:
