@@ -7,7 +7,7 @@ if __name__ == "__main__":
     elif numerito == 2:
         print("{} argument:".format(numerito - 1))
     else:
-        print("{} arguments: ".format(numerito - 1))
+        print("{} arguments:".format(numerito - 1))
 
     for iterador in range(1, numerito):
         print("{}: {}".format(iterador, sys.argv[iterador]))
