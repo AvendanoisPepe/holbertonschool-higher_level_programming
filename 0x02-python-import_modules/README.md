@@ -10,3 +10,5 @@
 4-hidden_discovery.py - Imprimimos una lista de argumentos utilizando la funcion dir() y quitando el "__" del contenido de esa lista
 
 variable_load_5.py - importamos y ya we ._.
+
+100-my_calculator.py - Lo mismo que el 1 solo que ahora tenemos en cuenta el signo.
