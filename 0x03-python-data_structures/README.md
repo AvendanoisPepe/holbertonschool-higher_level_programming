@@ -10,3 +10,5 @@
  4-new_in_list.py - Con condicionales verificamos que no sea mayor ni menor a la lista y generamos una copia de la lista original para reemplazar el index con el elemento
 
 5-no_c.py - Eliminamos todas las C y c de las cadenas.
+
+6-print_matrix_integer.py - Imprimimos la matriz verificando tanto las filas como las columnas y imprimiendo de cierta forma dependiendo si es la ultima ubicacion de la matriz o no
