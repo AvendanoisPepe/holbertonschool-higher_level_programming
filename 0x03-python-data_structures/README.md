@@ -12,3 +12,7 @@
 5-no_c.py - Eliminamos todas las C y c de las cadenas.
 
 6-print_matrix_integer.py - Imprimimos la matriz verificando tanto las filas como las columnas y imprimiendo de cierta forma dependiendo si es la ultima ubicacion de la matriz o no
+
+7-add_tuple.py - 
+
+8-multiple_returns.py - Verificamos si la oracion esta vacia resturnando none de resto returnamos la longitud y su primera letra 
