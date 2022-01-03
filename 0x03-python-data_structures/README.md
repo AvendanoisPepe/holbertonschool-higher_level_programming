@@ -8,3 +8,5 @@
  3-print_reversed_list_integer.py - Usamos un ciclo para recorrer la lista usando un rango de la longitud de la misma solo que en este caso usamos reverse que revierte la cadena de atras para delante.
 
  4-new_in_list.py - Con condicionales verificamos que no sea mayor ni menor a la lista y generamos una copia de la lista original para reemplazar el index con el elemento
+
+5-no_c.py - Eliminamos todas las C y c de las cadenas.
