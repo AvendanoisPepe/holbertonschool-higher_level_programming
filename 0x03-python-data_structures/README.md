@@ -3,4 +3,6 @@
 
  1-element_at.py - Con condicionales verificamos que no sea mayor ni menor a la lista y retornamos el mensaje del indice encontrado.
 
+ 2-replace_in_list.py - Con condicionales verificamos que no sea mayor ni menor a la lista y reemplazamos en al posicion deseada el contendo antiguo con element.
+
  
