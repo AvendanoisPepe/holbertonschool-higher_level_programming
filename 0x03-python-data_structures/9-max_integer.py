@@ -6,5 +6,5 @@ def max_integer(my_list=[]):
         compar = my_list[0]
         for iterador in my_list:
             if iterador > compar:
-                compar  = iterador
+                compar = iterador
     return (compar)
