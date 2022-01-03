@@ -22,3 +22,5 @@
 10-divisible_by_2.py - Recorremos la lista y usamos append para verificar si son o no multiplos de dos.
 
 11-delete_at.py - Utilizando del eliminamos el indice deseado de la lista.
+
+12-switch.py - Cambiamos los valores de a y b por el contrario.
