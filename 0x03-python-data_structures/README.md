@@ -20,3 +20,5 @@
 9-max_integer.py - Verificamos que la lista no este vacia y despues recorriendo la lista comparamos una variable con los valores de la lista y si es mayor a la variable de comparacion la reemplaza.
 
 10-divisible_by_2.py - Recorremos la lista y usamos append para verificar si son o no multiplos de dos.
+
+11-delete_at.py - Utilizando del eliminamos el indice deseado de la lista.
