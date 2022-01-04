@@ -6,3 +6,6 @@
 
 2-uniq_add.py - Verificamos que no se repetin los numeros con la condicional y con la funcion sum hacemos el proceso.
 
+ 3-common_elements.py - con la funcion intersection retorno el conjunto de elementos que coinciden dentro de las dos cadenas.
+
+ 
