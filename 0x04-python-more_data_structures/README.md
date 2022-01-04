@@ -4,3 +4,5 @@
 
  1-search_replace.py - Usamos la funcion copy para tener las dos listas requeridas para reemplazar el dato que se busca.
 
+2-uniq_add.py - Verificamos que no se repetin los numeros con la condicional y con la funcion sum hacemos el proceso.
+
