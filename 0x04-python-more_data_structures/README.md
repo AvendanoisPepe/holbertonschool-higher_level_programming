@@ -24,5 +24,5 @@
 
    11-multiply_list_map.py - generamos una lista para recorrerla con map y usamos la funcion lamban para multiplicar por el numero
 
-   12-roman_to_int.py - 
+   12-roman_to_int.py - Con isinstance verificamos si roman_string es una cadena y si es recorremos de derecha a izquierda la cadena para hacer la operacion.
    
