@@ -17,3 +17,5 @@
    7-update_dictionary.py - Verifico si la clave no esta en el diccionario y si no esta la agrego de resto recorro el diccionario para comparar los valores iguales.
 
    8-simple_delete.py - Verificamos si la clave existe y si es el caso la eliminamos con el metodo del.
+
+   9-multiply_by_2.py - Creamos un nuevo diccionario y al recorrer el antiguo asignamos el valor multiplocado * 2.
