@@ -21,3 +21,6 @@
    9-multiply_by_2.py - Creamos un nuevo diccionario y al recorrer el antiguo asignamos el valor multiplocado * 2.
 
    10-best_score.py - Con la funcion max sacamos mas grande del diccionario.
+
+   11-multiply_list_map.py - generamos una lista para recorrerla con map y usamos la funcion lamban para multiplicar por el numero
+   
