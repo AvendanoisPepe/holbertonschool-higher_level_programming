@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
     if search in my_list:
+        lista = my_list.copy()
         acumulador = 0
-        listita = my_list.copy()
         for iterador in my_list:
             if iterador == search:
-                listita[acumulador] = replace
-            acumulador = acumulador + 1
+                lista[acumulador] = replace
+            acumulador += 1
     else:
-        listita = my_lists
-    return listita
+        lista = my_list
+    return lista
