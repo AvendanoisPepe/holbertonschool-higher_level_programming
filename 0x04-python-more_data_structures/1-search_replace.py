@@ -6,7 +6,7 @@ def search_replace(my_list, search, replace):
         for iterador in my_list:
             if iterador == search:
                 listita[acumulador] = replace
-            acumulador = acumulador + 1
+            acumulador += 1
     else:
         listita = my_lists
     return listita
