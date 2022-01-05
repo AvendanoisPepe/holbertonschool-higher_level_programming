@@ -26,3 +26,4 @@
 
    12-roman_to_int.py - Con isinstance verificamos si roman_string es una cadena y si es recorremos de derecha a izquierda la cadena para hacer la operacion.
    
+   100-weight_average.py - Recorremos la lista multiplicando los valores y sumando el resultado en una variable, al igaul que guardando el valor de posicion[1] en div y al final dividiendo todo.
