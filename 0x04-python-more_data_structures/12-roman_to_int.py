@@ -5,11 +5,11 @@ def roman_to_int(roman_string):
         values = {'I': 1, 'V': 5, 'X': 10,
                   'L': 50, 'C': 100, 'D': 500, 'M': 1000}
         anterior = 0
-        for i in roman_string[::-1]:
-            valor = values[i]
-            if valor > anterior:
-                total = total + valor
+        for iterador in roman_string[::-1]:
+            valor = values[iterador]
+            if valor >= anterior:
+                total += valor
             else:
-                total = total - valor
+                total -= valor
             anterior = valor
     return total
