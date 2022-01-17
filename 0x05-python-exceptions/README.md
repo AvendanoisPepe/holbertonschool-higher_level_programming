@@ -26,7 +26,7 @@
 | 3-safe_print_division.py | Write a function that divides 2 integers and prints the result. | Mandatory |
 | 4-list_division.py | Write a function that divides element by element 2 lists. | Mandatory |
 | 5-raise_exception.py | Write a function that raises a type exception. | Mandatory |
-|  |  | Mandatory |
+| 6-raise_exception_msg.py | Write a function that raises a name exception with a message. | Mandatory |
 |  |  | Mandatory |
 
 ------------
@@ -43,7 +43,7 @@
 | 3-safe_print_division.py | En try hacemos la operacion, el except ponemos none si sale error, y en finally imprimimos | Mandatory |
 | 4-list_division.py | Recorremos un ciclo en el cual dividimos la posicion de la lista 1 con la posicion de la lista 2 y generamos execpiones correspondientes con su mensaje | Mandatory |
 | 5-raise_exception.py | Con raise lanzamos exepciones o errores | Mandatory |
-|  |  | Mandatory |
+| 6-raise_exception_msg.py | Usamos raise para forzar un error, en este caso NameError | Mandatory |
 |  |  | Mandatory |
 
 ------------
