@@ -1,4 +1,4 @@
-![](https://pbs.twimg.com/media/CFYYWy6UEAE9Ow-.png)
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--JjLMNggV--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/ghzlcv0gkpzitutuohd3.png)
 
 # 0x05. Python - Exceptions
 
@@ -21,6 +21,8 @@
 |  Point | What is done at this point? | level |
 | ------------ | ------------ | ------------ |
 | 0-safe_print_list.py | Write a function that prints x elements of a list. | Mandatory |
+| 1-safe_print_integer.py  | Write a function that prints an integer with "{:d}".format(). | Mandatory |
+|  |  | Mandatory |
 
 ------------
 
@@ -31,6 +33,8 @@
 |  Point | own comments.  | level |
 | ------------ | ------------ | ------------ |
 | 0-safe_print_list.py | Recorremos la lista en la cual imprimimos su contenido y ponemos como exepcion pass para que no de error de compilacion. | Mandatory |
+| 1-safe_print_integer.py | Simplemente usamos try donde ponemos true y expect donde ponemos false | Mandatory |
+|  |  | Mandatory |
 
 ------------
 
