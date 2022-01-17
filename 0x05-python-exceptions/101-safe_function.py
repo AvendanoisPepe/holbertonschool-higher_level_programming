@@ -4,5 +4,5 @@ def safe_function(fct, *args):
     try:
         return (fct(*args))
     except Exception as mensaje:
-        print("Exception: {}".format(mensaje),file=sys.stderr)
+        print("Exception: {}".format(mensaje), file=sys.stderr)
         return (None)
