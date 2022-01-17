@@ -24,7 +24,7 @@
 | 1-safe_print_integer.py  | Write a function that prints an integer with "{:d}".format(). | Mandatory |
 | 2-safe_print_list_integers.py | Write a function that prints the first x elements of a list and only integers. | Mandatory |
 | 3-safe_print_division.py | Write a function that divides 2 integers and prints the result. | Mandatory |
-|  |  | Mandatory |
+| 4-list_division.py | Write a function that divides element by element 2 lists. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -41,7 +41,7 @@
 | 1-safe_print_integer.py | Simplemente usamos try donde ponemos true y expect donde ponemos false | Mandatory |
 | 2-safe_print_list_integers.py | En este caso manejamos los casos de error que creemos que tendra el cod | Mandatory |
 | 3-safe_print_division.py | En try hacemos la operacion, el except ponemos none si sale error, y en finally imprimimos | Mandatory |
-|  |  | Mandatory |
+| 4-list_division.py | Recorremos un ciclo en el cual dividimos la posicion de la lista 1 con la posicion de la lista 2 y generamos execpiones correspondientes con su mensaje | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
