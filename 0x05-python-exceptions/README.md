@@ -23,7 +23,7 @@
 | 0-safe_print_list.py | Write a function that prints x elements of a list. | Mandatory |
 | 1-safe_print_integer.py  | Write a function that prints an integer with "{:d}".format(). | Mandatory |
 | 2-safe_print_list_integers.py | Write a function that prints the first x elements of a list and only integers. | Mandatory |
-|  |  | Mandatory |
+| 3-safe_print_division.py | Write a function that divides 2 integers and prints the result. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -40,7 +40,7 @@
 | 0-safe_print_list.py | Recorremos la lista en la cual imprimimos su contenido y ponemos como exepcion pass para que no de error de compilacion. | Mandatory |
 | 1-safe_print_integer.py | Simplemente usamos try donde ponemos true y expect donde ponemos false | Mandatory |
 | 2-safe_print_list_integers.py | En este caso manejamos los casos de error que creemos que tendra el cod | Mandatory |
-|  |  | Mandatory |
+| 3-safe_print_division.py | En try hacemos la operacion, el except ponemos none si sale error, y en finally imprimimos | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
