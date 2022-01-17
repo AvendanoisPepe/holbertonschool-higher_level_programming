@@ -27,13 +27,12 @@
 | 4-list_division.py | Write a function that divides element by element 2 lists. | Mandatory |
 | 5-raise_exception.py | Write a function that raises a type exception. | Mandatory |
 | 6-raise_exception_msg.py | Write a function that raises a name exception with a message. | Mandatory |
-|  |  | Mandatory |
+| 100-safe_print_integer_err.py | Write a function that prints an integer. | Advanced |
+|  |  | Advanced |
 
 ------------
 
 ## List of repository files:
-
-------------
 
 |  Point | own comments.  | level |
 | ------------ | ------------ | ------------ |
@@ -44,18 +43,31 @@
 | 4-list_division.py | Recorremos un ciclo en el cual dividimos la posicion de la lista 1 con la posicion de la lista 2 y generamos execpiones correspondientes con su mensaje | Mandatory |
 | 5-raise_exception.py | Con raise lanzamos exepciones o errores | Mandatory |
 | 6-raise_exception_msg.py | Usamos raise para forzar un error, en este caso NameError | Mandatory |
-|  |  | Mandatory |
+| 100-safe_print_integer_err.py | Redirijimos la salida del error a sys.stdeer | Advanced |
+|  |  | Advanced |
 
 ------------
 
-# Authors
+# Documentation:
+### Links:
+
+- https://docs.python.org/es/3.8/tutorial/errors.html
+- https://www.programiz.com/python-programming/exception-handling
+- https://www.geeksforgeeks.org/python-raise-keyword/
+- https://www.youtube.com/watch?v=uqDZuHf2C8U
+- https://www.tutorialspoint.com/python/python_exceptions.htm
+- https://www.youtube.com/watch?v=sNTowPB4YHI
+------------
+
+# Author
 
 
 ## Juan Sebastian Avendaño Gonzalez:
 - Git: https://github.com/AvendanoisPepe
 - Twitter: https://twitter.com/Sebastian_Aven
 - Linkedin: https://www.linkedin.com/in/juan-sebastian-avenda%C3%B1o-gonz%C3%A1lez-8b1185200/
+
 ------------
 
 
-![](https://scontent.fbog4-2.fna.fbcdn.net/v/t39.30808-6/269979152_3079620875635955_1447984171838636696_n.jpg?_nc_cat=108&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=CAiQW7lFwA0AX_Bsj0u&_nc_ht=scontent.fbog4-2.fna&oh=00_AT8SINudsczyjmtt5FufG1BFt-3EYn7XiEQ3t3Cx8dgc9Q&oe=61E4D79E)
+![](https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/271153206_3074657909465585_6907762404450913633_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=Wm9imN7mxqAAX_DgRTy&_nc_ht=scontent.fbog4-1.fna&oh=00_AT9bMuywrpnZKR3yaTAPu-lqwQ0uJpFTGIYQPM2wabvWlg&oe=61EB1180)
