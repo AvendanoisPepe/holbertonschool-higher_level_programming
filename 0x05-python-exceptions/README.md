@@ -25,7 +25,7 @@
 | 2-safe_print_list_integers.py | Write a function that prints the first x elements of a list and only integers. | Mandatory |
 | 3-safe_print_division.py | Write a function that divides 2 integers and prints the result. | Mandatory |
 | 4-list_division.py | Write a function that divides element by element 2 lists. | Mandatory |
-|  |  | Mandatory |
+| 5-raise_exception.py | Write a function that raises a type exception. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 
@@ -42,7 +42,7 @@
 | 2-safe_print_list_integers.py | En este caso manejamos los casos de error que creemos que tendra el cod | Mandatory |
 | 3-safe_print_division.py | En try hacemos la operacion, el except ponemos none si sale error, y en finally imprimimos | Mandatory |
 | 4-list_division.py | Recorremos un ciclo en el cual dividimos la posicion de la lista 1 con la posicion de la lista 2 y generamos execpiones correspondientes con su mensaje | Mandatory |
-|  |  | Mandatory |
+| 5-raise_exception.py | Con raise lanzamos exepciones o errores | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 
