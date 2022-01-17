@@ -28,7 +28,7 @@
 | 5-raise_exception.py | Write a function that raises a type exception. | Mandatory |
 | 6-raise_exception_msg.py | Write a function that raises a name exception with a message. | Mandatory |
 | 100-safe_print_integer_err.py | Write a function that prints an integer. | Advanced |
-|  |  | Advanced |
+| 101-safe_function.py | Write a function that executes a function safely. | Advanced |
 
 ------------
 
@@ -44,7 +44,7 @@
 | 5-raise_exception.py | Con raise lanzamos exepciones o errores | Mandatory |
 | 6-raise_exception_msg.py | Usamos raise para forzar un error, en este caso NameError | Mandatory |
 | 100-safe_print_integer_err.py | Redirijimos la salida del error a sys.stdeer | Advanced |
-|  |  | Advanced |
+| 101-safe_function.py | Returnamos el puntero a la funcion si funciona, de resto none | Advanced |
 
 ------------
 
