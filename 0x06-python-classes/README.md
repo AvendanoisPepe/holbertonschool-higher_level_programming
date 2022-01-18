@@ -37,8 +37,8 @@
 | 2-square.py | Write a class Square that defines a square by: (based on 1-square.py) | Mandatory |
 | 3-square.py | Write a class Square that defines a square by: (based on 2-square.py) | Mandatory |
 | 4-square.py | Write a class Square that defines a square by: (based on 3-square.py) |  Mandatory |
-|  |  |  Mandatory |
-|  |  |  Mandatory |
+| 5-square.py | Write a class Square that defines a square by: (based on 4-square.py) |  Mandatory |
+| 6-square.py | Write a class Square that defines a square by: (based on 5-square.py) |  Mandatory |
 
 ------------
 
@@ -51,8 +51,8 @@
 | 2-square.py | Verificamos las exepciones con raise | Mandatory |
 | 3-square.py | Returnamos el valor de la operacion | Mandatory |
 | 4-square.py | Usando Getter y Setter definimos la funcion que deseamos manipular con property y el setter donde manipulamos osea la segunda funcion del mismo nombre |  Mandatory |
-|  |  |  Mandatory |
-|  |  |  Mandatory |
+| 5-square.py | Controlamos el tamaño con la condicional y por medio de dos cilos imprimimos el cuadrado de: ## |  Mandatory |
+| 6-square.py |  |  Mandatory |
 
 ------------
 
