@@ -57,5 +57,5 @@ class Square():
             for zero1 in range(0, self.position[1]):
                 print()
             for x in range(0, self.__size):
-                print(" " * self.position[0] ,end="")
+                print(" " * self.position[0], end="")
                 print("#" * self.size)
