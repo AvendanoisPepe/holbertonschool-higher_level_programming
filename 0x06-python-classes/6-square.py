@@ -47,14 +47,16 @@ class Square():
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Con la condicional verificamos el tamaño y con los ciclos imprimimos el cuadrado de ## en la posicion dada.
+        """Con la condicional verificamos el tamaño y
+        con los ciclos imprimimos el cuadrado de ##
+        en la posicion dada.
         """
         if self.__size == 0:
             print()
         for zero1 in range(0, self.position[1]):
             print()
         for x in range(0, self.__size):
-            for zero in range (0, self.position[0]):
+            for zero in range(0, self.position[0]):
                 print(" ", end="")
             for y in range(0, self.__size):
                 print("#", end="")
