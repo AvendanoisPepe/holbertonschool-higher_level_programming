@@ -5,6 +5,7 @@ y manejo de Objetos SingleLinkedList y Node.
 
 
 class Node():
+    """Clase nodo"""
     def __init__(self, data, next_node=None):
         """Inicializamos los datos del nodo
         """
@@ -48,6 +49,7 @@ SingleLinkedList
 
 
 class SinglyLinkedList():
+    """Clase SinglyLinkedList"""
     def __init__(self):
         """Inicializamos la lista.
         """
