@@ -17,8 +17,7 @@ class Square():
 
     @size.setter
     def size(self, value=0):
-        """controlamos las exepciones
-        """
+        """controlamos las exepciones"""
         if type(value) != int:
             raise TypeError("size must be an integer")
         elif value < 0:
