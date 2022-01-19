@@ -39,6 +39,7 @@
 | 4-square.py | Write a class Square that defines a square by: (based on 3-square.py) |  Mandatory |
 | 5-square.py | Write a class Square that defines a square by: (based on 4-square.py) |  Mandatory |
 | 6-square.py | Write a class Square that defines a square by: (based on 5-square.py) |  Mandatory |
+| 100-singly_linked_list.py | Write a class Node that defines a node of a singly linked list by: | Mandatory |
 
 ------------
 
@@ -53,6 +54,7 @@
 | 4-square.py | Usando Getter y Setter definimos la funcion que deseamos manipular con property y el setter donde manipulamos osea la segunda funcion del mismo nombre |  Mandatory |
 | 5-square.py | Controlamos el tamaño con la condicional y por medio de dos cilos imprimimos el cuadrado de: ## |  Mandatory |
 | 6-square.py | Usando getter and setters obtenemos el valor y modificamos el valor |  Mandatory |
+| 100-singly_linked_list.py |  | Mandatory |
 
 ------------
 
