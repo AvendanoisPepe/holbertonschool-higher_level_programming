@@ -51,11 +51,16 @@ class Square():
         con los ciclos imprimimos el cuadrado de ##
         en la posicion dada.
         """
-        if self.__size == 0:
-            print()
-        else:
+        posi = self.__position
+        if self.__size != 0:
             for zero1 in range(0, self.position[1]):
                 print()
-            for x in range(0, self.__size):
-                print(" " * self.position[0], end="")
-                print("#" * self.size)
+            for x in range(0, self.size):
+                for zero1 in range (0, p[0]):
+                    print(" ", end='')
+                for y in range(0, self.size):
+                    print("#", end="")
+                print()
+         else:
+            print()            
+                                    
