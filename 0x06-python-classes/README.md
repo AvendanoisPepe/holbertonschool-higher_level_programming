@@ -54,7 +54,7 @@
 | 4-square.py | Usando Getter y Setter definimos la funcion que deseamos manipular con property y el setter donde manipulamos osea la segunda funcion del mismo nombre |  Mandatory |
 | 5-square.py | Controlamos el tamaño con la condicional y por medio de dos cilos imprimimos el cuadrado de: ## |  Mandatory |
 | 6-square.py | Usando getter and setters obtenemos el valor y modificamos el valor |  Mandatory |
-| 100-singly_linked_list.py |  | Mandatory |
+| 100-singly_linked_list.py | Generamos dos clases: node en cual definimos sus valores y SinglyLinkedList en la cual lo agregamos | Mandatory |
 
 ------------
 
@@ -66,6 +66,8 @@
 - https://python-course.eu/oop/object-oriented-programming.php
 - https://python.swaroopch.com/oop.html
 - https://www.youtube.com/watch?v=tlVbYq9_N5M
+- https://www.programiz.com/python-programming/methods/string/join
+
 ------------
 
 # Author
