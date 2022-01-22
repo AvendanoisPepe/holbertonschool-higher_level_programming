@@ -2,7 +2,7 @@
 Funcion
 ::::::::::::
 Archivo txt donde se verifican todos los errores posibles
-que puden tener la suma de dos variables.
+que puden tener la funcion add_integer() que suma de dos variables.
 
 Importacion del modulo:
 ::::::::::::::::::::::::::::::::::::

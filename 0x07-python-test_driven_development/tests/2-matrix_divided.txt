@@ -2,7 +2,8 @@
 Funcion
 ::::::::::::
 Archivo txt donde se verifican todos los errores posibles
-que puden tener  la función que divide todos los elementos de una matriz.
+que puden tener  la función matrix_divided() que 
+divide todos los elementos de una matriz.
 
 Importacion del modulo:
 ::::::::::::::::::::::::::::::::::::

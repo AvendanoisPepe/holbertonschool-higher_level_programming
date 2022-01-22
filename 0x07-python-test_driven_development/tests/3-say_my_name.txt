@@ -2,7 +2,8 @@
 Funcion
 ::::::::::::
 Archivo txt donde se verifican todos los errores posibles
-que puden tener  la función que imprime mi nombre.
+que puede tener  la función say_my_name() 
+que imprime mi nombre.
 
 Importacion del modulo:
 ::::::::::::::::::::::::::::::::::::
