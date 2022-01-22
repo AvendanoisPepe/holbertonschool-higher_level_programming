@@ -20,7 +20,8 @@
 |  Point | What is done at this point? | level |
 | ------------ | ------------ | ------------ |
 | 0-add_integer.py | Write a function that adds 2 integers. | Mandatory |
-|  |  |  |
+| 2-matrix_divided.py | Write a function that divides all elements of a matrix. | Mandatory |
+| 3-say_my_name.py | Write a function that prints My name is <first name> <last name> | Mandatory |
 
 ------------
 
@@ -29,7 +30,8 @@
 |  Point | own comments.  | level |
 | ------------ | ------------ | ------------ |
 | 0-add_integer.py | Generamos la suma y usamos excepciones que verifiquen si son enteros y si son floats los convierte a enteros | Mandatory |
-|  |  |  |
+| 2-matrix_divided.py |  Verificamos el tamaño, el tipo de dato y finalmente hacemos la operacion.| Mandatory |
+| 3-say_my_name.py  |  | Mandatory |
 
 ------------
 
@@ -38,7 +40,8 @@
 | Point  | Comments | level |
 | ------------ | ------------ | ------------ |
 | 0-add_integer.txt | Verificamos todas las posibles verificaciones de una suma de dos variables. | Mandatory |
-|  |  | Mandatory |
+| 2-matrix_divided.txt | Verificamos todas las posubles verificaciones de la division de todos los elementos de una matrix. | Mandatory |
+| 3-say_my_name.txt |  | Mandatory |
 
 ------------
 

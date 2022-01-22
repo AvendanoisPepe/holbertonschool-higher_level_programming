@@ -14,7 +14,7 @@ Importacion del modulo:
 Pruebas:
 :::::::::::::
 
-1 - Se supone que debe restornar la suma de dos enteros:
+1 - Se supone que debe retornar la suma de dos enteros:
 
 >>> add_integer(12, 12)
 24
@@ -24,7 +24,7 @@ Pruebas:
 >>> add_integer(4)
 102
 
-3 - Se supone que debe restornar la suma de a = -4 mas b = 10
+3 - Se supone que de retornar la suma de a = -4 mas b = 10
 
 >>> add_integer(-4, 10)
 6
@@ -48,7 +48,7 @@ Pruebas:
 >>> add_integer((10 + 10), 10)
 30
 
-8 - Se supone que debe restornar la suma de a = 10 mas b = (10 + 10)
+8 - Se supone que de retornar la suma de a = 10 mas b = (10 + 10)
 
 >>> add_integer(10, (10 + 10))
 30
