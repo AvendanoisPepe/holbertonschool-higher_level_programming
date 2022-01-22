@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""Modulo para dividir una matrix
-Divide cada elemento de una matriz de números por un número
+"""
+Modulo para dividir una matrix
+Divide cada elemento de una matrix
+de números por un número
 """
 
 
