@@ -23,6 +23,7 @@
 | 2-matrix_divided.py | Write a function that divides all elements of a matrix. | Mandatory |
 | 3-say_my_name.py | Write a function that prints My name is <first name> <last name> | Mandatory |
 | 4-print_square.py | Write a function that prints a square with the character #. | Mandatory |
+| 5-text_indentation.py | Write a function that prints a text with 2 new lines after each of these characters: ., ? and : | Mandatory |
 
 ------------
 
@@ -34,6 +35,7 @@
 | 2-matrix_divided.py |  Verificamos el tamaño, el tipo de dato y finalmente hacemos la operacion.| Mandatory |
 | 3-say_my_name.py  | Controlamos las excepciones de cadenas y imprimimos. | Mandatory |
 | 4-print_square.py | Verificamos el tipo y el tamaño con exepciones y usamos dos ciclos for para imprimir el cuadrado. | Mandatory |
+| 5-text_indentation.py | Verificando que sea un str y generamos un ciclo para identificar los ".:?", agregale los "\n", quitarle los espacios iniciales y finales con strip y generar otro ciclo para divivir el texto con split y imprimir el resultado final. | Mandatory |
 |  |  | Mandatory |
 
 ------------
@@ -45,7 +47,8 @@
 | 0-add_integer.txt | Verificamos todas las posibles verificaciones de una suma de dos variables. | Mandatory |
 | 2-matrix_divided.txt | Verificamos todas las posibles verificaciones de la division de todos los elementos de una matrix. | Mandatory |
 | 3-say_my_name.txt | Verificamos todas las posibles verificaciones de la impresion de una cadena | Mandatory |
-| 4-print_square.txt |  | Mandatory |
+| 4-print_square.txt | Verificamos todas las posibles verificaciones de la impresion de un cuadrado con el caracter # y el tamaño pasado por parametro | Mandatory |
+| 5-text_indentation.txt | Verificamos todas las posibles verificaciones de la impresion de una cadena con caracteres especiles que dividen a la cadena en subcadenas y agregan espacios de linea cuando se encuentran con esos caracteres especiales | Mandatory |
 
 ------------
 
@@ -54,7 +57,9 @@
 
 - https://www.youtube.com/watch?v=5ufpsjfk99U
 - https://www.youtube.com/watch?v=-CvYstk6SaU
-
+- https://www.programiz.com/python-programming/methods/string/lstrip
+- https://www.programiz.com/python-programming/methods/string/strip
+- https://www.programiz.com/python-programming/methods/string/split
 
 ------------
 
@@ -65,6 +70,7 @@
 - Git: https://github.com/AvendanoisPepe
 - Twitter: https://twitter.com/Sebastian_Aven
 - Linkedin: https://www.linkedin.com/in/juan-sebastian-avenda%C3%B1o-gonz%C3%A1lez-8b1185200/
+
 
 ------------
 
