@@ -39,3 +39,24 @@ class Rectangle():
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
+    def area(self):
+        """Calcula el area de una instancea"""
+        return self.__width * self.__height
+
+    def perimeter(self):
+        """Calcula el perimetro de una instancea"""
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        return 2 * (self.__width + self.__height)
+
+    def __str__(self):
+        """Imprime el rectangulo con el caracter #"""
+        if self.__width == 0 or self.__height == 0:
+            return ""
+        return ("\n".join(("#" * self.__width for i in range(self.__height))))
+
+    def __repr__(self):
+        """Para poder recrear una nueva instancia,
+        devolvemos la representacion de la cadena"""
+        return ("Rectangle ({:d}, {:d})".format(self.__width, self.__height))
