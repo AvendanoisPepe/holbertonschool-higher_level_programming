@@ -46,8 +46,8 @@
 | 5-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py) | Mandatory |
 | 6-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py) | Mandatory |
 | 7-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 6-rectangle.py) | Mandatory |
-| 8-rectangle.py |  | Mandatory |
-| 9-rectangle.py |  | Mandatory |
+| 8-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 7-rectangle.py) | Mandatory |
+| 9-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py) | Mandatory |
 
 
 ------------
@@ -64,8 +64,8 @@
 | 5-rectangle.py | El metodo lo hace todo :v | Mandatory |
 | 6-rectangle.py | Generamos una variables y cuando inicializamos aumentamos, si eliminos restamos | Mandatory |
 | 7-rectangle.py | Simplemente reemplazmos el valor de impresion de str. | Mandatory |
-| 8-rectangle.py |  | Mandatory |
-| 9-rectangle.py |  | Mandatory |
+| 8-rectangle.py | Usando el decorador @staticmethod generamos un metodo estatico para encontrar el rectangulo mas grande | Mandatory |
+| 9-rectangle.py | Usamos @classmethod para generar una nueva instancia de la misma clase dentro de la clase | Mandatory |
 
 ------------
 
@@ -79,6 +79,8 @@
 - https://python-course.eu/oop/properties-vs-getters-and-setters.php
 - https://www.youtube.com/watch?v=AjqiMjszjRs
 - https://uniwebsidad.com/libros/algoritmos-python/capitulo-14/metodos-especiales#:~:text=Para%20mostrar%20objetos%2C%20Python%20indica,llama%20a%20la%20funci%C3%B3n%20str%20
+- https://www.delftstack.com/es/howto/python/python-static-method/#:~:text=Un%20m%C3%A9todo%20est%C3%A1tico%20pertenece%20a,clase%20en%20la%20que%20reside
+- https://www.youtube.com/watch?v=RFGXxnEAejo&list=PLpOqH6AE0tNiK7QN6AJo_3nVGQPc8nLdM&index=42
 
 ------------
 
