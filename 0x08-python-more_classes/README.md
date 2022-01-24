@@ -44,7 +44,7 @@
 | 3-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 2-rectangle.py) | Mandatory |
 | 4-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 3-rectangle.py) | Mandatory |
 | 5-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py) | Mandatory |
-| 6-rectangle.py |  | Mandatory |
+| 6-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py) | Mandatory |
 | 7-rectangle.py |  | Mandatory |
 | 8-rectangle.py |  | Mandatory |
 | 9-rectangle.py |  | Mandatory |
@@ -62,7 +62,7 @@
 | 3-rectangle.py | Primera vez intentando hacer codigo pytonico | Mandatory |
 | 4-rectangle.py | Hacemos una funcion en la cual retornamos una cadena como si fuera una instancia del main para llamar de nuevo a la funcion. | Mandatory |
 | 5-rectangle.py | El metodo lo hace todo :v | Mandatory |
-| 6-rectangle.py |  | Mandatory |
+| 6-rectangle.py | Generamos una variables y cuando inicializamos aumentamos, si eliminos restamos | Mandatory |
 | 7-rectangle.py |  | Mandatory |
 | 8-rectangle.py |  | Mandatory |
 | 9-rectangle.py |  | Mandatory |
@@ -77,7 +77,8 @@
 - https://python.swaroopch.com/oop.html
 - https://python-course.eu/oop/class-instance-attributes.php
 - https://python-course.eu/oop/properties-vs-getters-and-setters.php
-
+- https://www.youtube.com/watch?v=AjqiMjszjRs
+- https://uniwebsidad.com/libros/algoritmos-python/capitulo-14/metodos-especiales#:~:text=Para%20mostrar%20objetos%2C%20Python%20indica,llama%20a%20la%20funci%C3%B3n%20str%20
 
 ------------
 
