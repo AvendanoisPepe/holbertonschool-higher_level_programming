@@ -41,7 +41,7 @@
 | 0-rectangle.py | Write an empty class Rectangle that defines a rectangle: | Mandatory |
 | 1-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py) | Mandatory |
 | 2-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py) | Mandatory |
-| 3-rectangle.py |  | Mandatory |
+| 3-rectangle.py | Write a class Rectangle that defines a rectangle by: (based on 2-rectangle.py) | Mandatory |
 | 4-rectangle.py |  | Mandatory |
 | 5-rectangle.py |  | Mandatory |
 | 6-rectangle.py |  | Mandatory |
@@ -59,7 +59,7 @@
 | 0-rectangle.py | Pass hace magia xd | Mandatory |
 | 1-rectangle.py | Se generan los getter y setter para obtener y verificar el dato | Mandatory |
 | 2-rectangle.py | Usamos operaciones mat para verificar el area y el perimetro | Mandatory |
-| 3-rectangle.py |  | Mandatory |
+| 3-rectangle.py | Primera vez intentando hacer codigo pytonico | Mandatory |
 | 4-rectangle.py |  | Mandatory |
 | 5-rectangle.py |  | Mandatory |
 | 6-rectangle.py |  | Mandatory |
