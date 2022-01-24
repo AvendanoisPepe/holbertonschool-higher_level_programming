@@ -73,6 +73,11 @@
 ### Links:
 
 - https://programmerclick.com/article/2560836525/
+- https://python-course.eu/oop/object-oriented-programming.php
+- https://python.swaroopch.com/oop.html
+- https://python-course.eu/oop/class-instance-attributes.php
+- https://python-course.eu/oop/properties-vs-getters-and-setters.php
+
 
 ------------
 
