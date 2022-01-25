@@ -55,6 +55,7 @@
 | 26-answer.txt | What does this script print? | Mandatory |
 | 27-answer.txt | Will the last line of this script print 139926795932424? Answer with Yes or No. | Mandatory |
 | 28-answer.txt | Will the last line of this script print 139926795932424? Answer with Yes or No. | Mandatory |
+| 100-magic_string.py | Write a function magic_string() that returns a string “BestSchool” n times the number of the iteration (see code): | Advanced |
 
 ------------
 
@@ -91,6 +92,7 @@
 | 26-answer.txt | Comparando ando | Mandatory |
 | 27-answer.txt | Cada id es diferente | Mandatory |
 | 28-answer.txt | Se imprime el id | Mandatory |
+| 100-magic_string.py | Returno la union de la cadena | Advanced |
 
 ------------
 
