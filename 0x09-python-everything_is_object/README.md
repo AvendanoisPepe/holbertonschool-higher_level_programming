@@ -55,10 +55,6 @@
 | 26-answer.txt | What does this script print? | Mandatory |
 | 27-answer.txt | Will the last line of this script print 139926795932424? Answer with Yes or No. | Mandatory |
 | 28-answer.txt | Will the last line of this script print 139926795932424? Answer with Yes or No. | Mandatory |
-|  |  | Mandatory |
-|  |  | Mandatory |
-|  |  | Mandatory |
-
 
 ------------
 
@@ -107,6 +103,12 @@
 - http://composingprograms.com/pages/24-mutable-data.html#sequence-objects
 - http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists
 - http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html
+
+------------
+
+# Blog on the subject:
+
+-  https://www.linkedin.com/pulse/mutable-immutable-everything-object-juan-sebastian-avenda%25C3%25B1o-gonz%25C3%25A1lez
 
 ------------
 
