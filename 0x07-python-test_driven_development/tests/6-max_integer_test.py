@@ -16,6 +16,10 @@ class TestMaxInteger(unittest.TestCase):
         resultado = max_integer()
         self.assertIsNone(resultado)
 
+    def test_negative_number_list(self):
+        """Existe la prueba de "lista de un elemento"""
+        self.assertEqual(max_integer([-1]), -1)
+
     def test_min(self):
         """Verificamos si el resultado de la lista es correcto"""
         self.assertEqual(max_integer([1, 2, 3, 4]), 4)
