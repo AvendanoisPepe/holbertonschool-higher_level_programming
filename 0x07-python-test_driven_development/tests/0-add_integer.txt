@@ -81,14 +81,21 @@ Traceback (most recent call last):
 ...
 OverflowError: cannot convert float infinity to integer
 
-13 - Se supone que deberia generar una excepcion por mas de dos argumentos que recibe la funcion.
+13 - Se supone que deberia generar una excepcion ValueError
+
+>>> add_integer(float('NaN'), -2)
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+
+14 - Se supone que deberia generar una excepcion por mas de dos argumentos que recibe la funcion.
 
 >>> add_integer(100, 2, 42)
 Traceback (most recent call last):
 ...
 TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 
-14 - Se supone que deberia generar una excepcion TypeError para una funcion None:
+15 - Se supone que deberia generar una excepcion TypeError para una funcion None:
 
 >>> add_integer(None)
 Traceback (most recent call last):
