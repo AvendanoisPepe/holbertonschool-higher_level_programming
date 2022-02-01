@@ -38,7 +38,7 @@
 | 10-square.py | Write a class Square that inherits from Rectangle (9-rectangle.py): |  Mandatory |
 | 11-square.py | Write a class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py). |  Mandatory |
 | 100-my_int.py | Write a class MyInt that inherits from int: | Advanced |
-
+| 101-add_attribute.py | Write a function that adds a new attribute to an object if it’s possible: | Advanced |
 
 ------------
 
@@ -59,6 +59,8 @@
 | 10-square.py | Se genera una nueva clase llamada square y usamos super para heredar metodos de rectangle |  Mandatory |
 | 11-square.py | Se imprime el mensaje requerido en el str |  Mandatory |
 | 100-my_int.py | El método de tipo de objeto __eq__ compara la igualdad de dos objetos comparando su id, que es su dirección de memoria. y El método de tipo de objeto predeterminado __ne__ llamará al método __eq__ y negará su resultado, por lo que la operación __ne__ debe considerarse equivalente a !( x == y) |  Advanced |
+| 101-add_attribute.py | El método hasattr() devuelve verdadero si un objeto tiene el atributo nombrado dado y falso si no lo tiene. 
+La función setattr() establece el valor del atributo de un objeto. | Advanced |
 
 ------------
 
@@ -74,6 +76,9 @@
 - https://www.programiz.com/python-programming/methods/built-in/isinstance
 - https://www.programiz.com/python-programming/methods/built-in/sorted
 - https://www.programiz.com/python-programming/methods/built-in/super
+- https://twiserandom.com/python/__eq__-__ne__-__lt__-__gt__-__ge__-__le__-in-python-a-tutorial/index.html#_ne
+- https://www.programiz.com/python-programming/methods/built-in/hasattr
+
 ------------
 
 # Author
