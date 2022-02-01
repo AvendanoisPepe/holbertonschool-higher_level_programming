@@ -139,3 +139,10 @@ TypeError: 'int' object is not iterable
 Traceback (most recent call last):
 ...
 TypeError: 'bool' object is not iterable
+
+13 - Instancia de lista de clasese
+
+>>> pepe = MyList()
+
+>>> isinstance(pepe, list)
+True
