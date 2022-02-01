@@ -22,6 +22,16 @@ Pruebas:
 
 >>> bg.integer_validator("", (12))
 
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
+
+>>> bg.area(22)
+Traceback (most recent call last):
+...
+TypeError: area() takes 1 positional argument but 2 were given
+
 2 - Se supone que debe generar un tipo de error TypeError
 
 >>> bg.integer_validator("my_int", 0)
