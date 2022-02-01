@@ -4,5 +4,5 @@
 
 def read_file(filename=""):
     """Lee un archivo pasado por parametro y lo imprime"""
-    with open(filename, "r", encoding="utf-8") as archivo:
-        print(archivo.read())
+    with open(filename, mode="r", encoding="utf-8") as f:
+        print(f.read())
