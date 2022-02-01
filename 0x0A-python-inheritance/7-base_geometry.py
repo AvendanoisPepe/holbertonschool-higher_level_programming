@@ -1,18 +1,17 @@
 #!/usr/bin/python3
-""" Geometry Integer validator
-Contains the class BaseGeometry.
-    """
+"""Modulo BaseGeometry que contiene
+un metodo area"""
 
 
 class BaseGeometry():
-    """ Define public attribute area and integer validator  """
+    """Clase BaseGeometry"""
 
     def area(self):
-        """ Raises an Exception """
+        """Genera una excepcion"""
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-        """ Validates if value is integer """
+        """Validamos el valor en el metodo publico"""
         if type(value) is not int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
