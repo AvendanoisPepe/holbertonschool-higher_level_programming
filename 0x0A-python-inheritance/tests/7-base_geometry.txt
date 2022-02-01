@@ -71,6 +71,11 @@ Traceback (most recent call last):
 ...
 TypeError: my_int must be an integer
 
+>>> bg.integer_validator("my_int", True)
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
 9 - Se supone que debe generar un tipo de error TypeError
 
 >>> bg.integer_validator("my_int", None)
