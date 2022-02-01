@@ -158,3 +158,10 @@ True
 
 >>> issubclass(MyList, list)
 True
+
+14 - Pasando argumentos a print_sorted()
+
+>>> pepe.print_sorted(10)
+Traceback (most recent call last):
+...
+TypeError: print_sorted() takes 1 positional argument but 2 were given
