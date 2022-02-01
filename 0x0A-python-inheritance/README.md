@@ -78,6 +78,7 @@ La función setattr() establece el valor del atributo de un objeto. | Advanced |
 - https://www.programiz.com/python-programming/methods/built-in/super
 - https://twiserandom.com/python/__eq__-__ne__-__lt__-__gt__-__ge__-__le__-in-python-a-tutorial/index.html#_ne
 - https://www.programiz.com/python-programming/methods/built-in/hasattr
+- https://www.programiz.com/python-programming/methods/built-in/setattr
 
 ------------
 
