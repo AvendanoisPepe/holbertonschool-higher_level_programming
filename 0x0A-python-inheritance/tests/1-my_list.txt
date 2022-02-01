@@ -179,3 +179,15 @@ TypeError: print_sorted() missing 1 required positional argument: 'self'
 Traceback (most recent call last):
 ...
 NameError: name 'pepa' is not defined
+
+17 - llamar a print_sorted() desde un tipo que no es lista
+
+>>> entero = 1
+
+>>> type(entero)
+<class 'int'>
+
+>>> entero.print_sorted()
+Traceback (most recent call last):
+...
+AttributeError: 'int' object has no attribute 'print_sorted'
