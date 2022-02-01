@@ -165,3 +165,10 @@ True
 Traceback (most recent call last):
 ...
 TypeError: print_sorted() takes 1 positional argument but 2 were given
+
+15 - Llamar la funcion desde la clase
+
+>>> MyList.print_sorted()
+Traceback (most recent call last):
+...
+TypeError: print_sorted() missing 1 required positional argument: 'self'
