@@ -98,3 +98,8 @@ TypeError: my_int must be an integer
 Traceback (most recent call last):
 ...
 TypeError: my_int must be an integer
+
+>>> bg.integer_validator("my_int", {'one': 1, 'two': 2})
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
