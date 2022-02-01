@@ -12,7 +12,21 @@ Importacion del modulo:
 Pruebas:
 :::::::::::::
 
-1- Se prueba la lista vacia.
+1 - Agragando elementos a la lista
+
+>>> pepe = MyList()
+>>> pepe.append(1)
+>>> pepe.append(10)
+>>> pepe.append(2)
+>>> pepe.append(4)
+
+>>> print(pepe)
+[1, 10, 2, 4]
+
+>>> pepe.print_sorted()
+[1, 2, 4, 10]
+
+2- Se prueba la lista vacia.
 
 >>> pepe = MyList()
 
@@ -22,7 +36,7 @@ Pruebas:
 >>> pepe.print_sorted()
 []
 
-2 - se prueba una lista negativa.
+3 - se prueba una lista negativa.
 
 >>> pepe = MyList()
 
@@ -40,7 +54,7 @@ Pruebas:
 >>> pepe.print_sorted()
 [-672, -2, -1, 0]
 
-3 - Verificamos si mandamos NULL
+4 - Verificamos si mandamos NULL
 
 >>> pepe = MyList()
 
@@ -49,7 +63,7 @@ Traceback (most recent call last):
 ...
 NameError: name 'NULL' is not defined
 
-4 - Verificamos si mandamos NaN
+5 - Verificamos si mandamos NaN
 
 >>> pepe = MyList()
 
@@ -58,7 +72,7 @@ Traceback (most recent call last):
 ...
 NameError: name 'NaN' is not defined
 
-5 - Verificamos si mandamos None
+6 - Verificamos si mandamos None
 
 >>> pepe = MyList()
 
@@ -70,7 +84,7 @@ NameError: name 'NaN' is not defined
 >>> pepe.print_sorted()
 [None]
 
-6 - verificamos que pasa si madamos chars
+7 - verificamos que pasa si madamos chars
 
 >>> pepe = MyList(["p", "e", "p", "e"])
 
@@ -80,7 +94,7 @@ NameError: name 'NaN' is not defined
 >>> pepe.print_sorted()
 ['e', 'e', 'p', 'p']
 
-7 - verificamos que pasa si madamos una cadena
+8 - verificamos que pasa si madamos una cadena
 
 >>> pepe = MyList(["pepe"])
 
@@ -90,7 +104,7 @@ NameError: name 'NaN' is not defined
 >>> pepe.print_sorted()
 ['pepe']
 
-8 - Verificamos que pasa su mandamos floats
+9 - Verificamos que pasa su mandamos floats
 
 >>> pepe = MyList([88.6, 2.02, 3.06, 1.01])
 
@@ -100,7 +114,7 @@ NameError: name 'NaN' is not defined
 >>> pepe.print_sorted()
 [1.01, 2.02, 3.06, 88.6]
 
-9 - Verificamos que pasa si mandamos enteros con chars
+10 - Verificamos que pasa si mandamos enteros con chars
 
 >>> pepe = MyList([88, "z"])
 
@@ -112,14 +126,14 @@ Traceback (most recent call last):
 ...
 TypeError: '<' not supported between instances of 'str' and 'int'
 
-10 - Verificamos que pasa si mandamos un tipo de dato diferente
+11 - Verificamos que pasa si mandamos un tipo de dato diferente
 
 >>> pepe = MyList(45)
 Traceback (most recent call last):
 ...
 TypeError: 'int' object is not iterable
 
-11 - Verificamos que pasa si mandamos un tipo de dato diferente
+12 - Verificamos que pasa si mandamos un tipo de dato diferente
 
 >>> pepe = MyList(True)
 Traceback (most recent call last):
