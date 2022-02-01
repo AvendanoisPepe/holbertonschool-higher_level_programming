@@ -29,7 +29,7 @@
 | 0-read_file.py | Write a function that reads a text file (UTF8) and prints it to stdout: | Mandatory |
 | 1-write_file.py | Write a function that writes a string to a text file (UTF8) and returns the number of characters written: | Mandatory |
 | 2-append_write.py | Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added: | Mandatory |
-|  |  | Mandatory |
+| 3-to_json_string.py | Write a function that returns the JSON representation of an object (string): | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -44,7 +44,7 @@
 | 0-read_file.py | Open abre el archivo y returna su objeto | Mandatory |
 | 1-write_file.py | La escritura de una cadena o secuencia de bytes (para archivos binarios) se realiza mediante el método write(). Este método devuelve el número de caracteres escritos en el archivo. | Mandatory |
 | 2-append_write.py | usamos write para el retorno de los caracteres contados y "a" en open->mode para agregar una cadena al final | Mandatory |
-|  |  | Mandatory |
+| 3-to_json_string.py | La función json.dumps() convierte un objeto Python en una cadena json. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -69,7 +69,8 @@
 - Git: https://github.com/AvendanoisPepe
 - Twitter: https://twitter.com/Sebastian_Aven
 - Linkedin: https://www.linkedin.com/in/juan-sebastian-avenda%C3%B1o-gonz%C3%A1lez-8b1185200/
-
+- https://docs.python.org/3/library/json.html#json.dumps
+- https://www.geeksforgeeks.org/json-dumps-in-python/
 
 ------------
 
