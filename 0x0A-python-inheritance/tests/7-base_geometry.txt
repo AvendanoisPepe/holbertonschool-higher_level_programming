@@ -113,23 +113,3 @@ TypeError: my_int must be an integer
 Traceback (most recent call last):
 ...
 TypeError: my_int must be an integer
-
->>> bg.integer_validator("my_int", {'one': 1, 'two': 2})
-Traceback (most recent call last):
-...
-TypeError: my_int must be an integer
-
->>> bg.integer_validator(None)
-Traceback (most recent call last):
-...
-TypeError: integer_validator() missing 1 required positional argument: 'value'
-
->>> bg.integer_validator("None", None)
-Traceback (most recent call last):
-...
-TypeError: None must be an integer
-
->>> bg.integer_validator("my_int", [5])
-Traceback (most recent call last):
-...
-TypeError: my_int must be an integer
