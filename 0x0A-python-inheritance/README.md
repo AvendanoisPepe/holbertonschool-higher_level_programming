@@ -37,6 +37,8 @@
 | 9-rectangle.py | Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). (task based on 8-rectangle.py) | Mandatory  |
 | 10-square.py | Write a class Square that inherits from Rectangle (9-rectangle.py): |  Mandatory |
 | 11-square.py | Write a class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py). |  Mandatory |
+| 100-my_int.py | Write a class MyInt that inherits from int: | Advanced |
+
 
 ------------
 
@@ -56,6 +58,7 @@
 | 9-rectangle.py | Se genera un nuevo metodo area y se imprime en el str | Mandatory  |
 | 10-square.py | Se genera una nueva clase llamada square y usamos super para heredar metodos de rectangle |  Mandatory |
 | 11-square.py | Se imprime el mensaje requerido en el str |  Mandatory |
+| 100-my_int.py | El método de tipo de objeto __eq__ compara la igualdad de dos objetos comparando su id, que es su dirección de memoria. y El método de tipo de objeto predeterminado __ne__ llamará al método __eq__ y negará su resultado, por lo que la operación __ne__ debe considerarse equivalente a !( x == y) |  Advanced |
 
 ------------
 
