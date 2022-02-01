@@ -28,7 +28,7 @@
 | ------------ | ------------ | ------------ |
 | 0-read_file.py | Write a function that reads a text file (UTF8) and prints it to stdout: | Mandatory |
 | 1-write_file.py | Write a function that writes a string to a text file (UTF8) and returns the number of characters written: | Mandatory |
-|  |  | Mandatory |
+| 2-append_write.py | Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added: | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -43,7 +43,7 @@
 | ------------ | ------------ | ------------ |
 | 0-read_file.py | Open abre el archivo y returna su objeto | Mandatory |
 | 1-write_file.py | La escritura de una cadena o secuencia de bytes (para archivos binarios) se realiza mediante el método write(). Este método devuelve el número de caracteres escritos en el archivo. | Mandatory |
-|  |  | Mandatory |
+| 2-append_write.py | usamos write para el retorno de los caracteres contados y "a" en open->mode para agregar una cadena al final | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
