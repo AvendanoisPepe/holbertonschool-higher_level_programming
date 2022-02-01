@@ -32,7 +32,7 @@
 | 3-to_json_string.py | Write a function that returns the JSON representation of an object (string): | Mandatory |
 | 4-from_json_string.py | Write a function that returns an object (Python data structure) represented by a JSON string: | Mandatory |
 | 5-save_to_json_file.py | Write a function that writes an Object to a text file, using a JSON representation: | Mandatory |
-|  |  | Mandatory |
+| 6-load_from_json_file.py | Write a function that creates an Object from a “JSON file”: | Mandatory |
 |  |  | Mandatory |
 
 ------------
@@ -47,7 +47,7 @@
 | 3-to_json_string.py | La función json.dumps() convierte un objeto Python en una cadena json. | Mandatory |
 | 4-from_json_string.py |  El método json.loads() se puede utilizar para analizar una cadena JSON válida y convertirla en un diccionario de Python | Mandatory |
 | 5-save_to_json_file.py | Combinamos lo aprendido anteriormente mandado la funcion json en el write | Mandatory |
-|  |  | Mandatory |
+| 6-load_from_json_file.py | load() lee el archivo en formato json | Mandatory |
 |  |  | Mandatory |
 
 ------------
