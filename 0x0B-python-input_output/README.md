@@ -30,7 +30,7 @@
 | 1-write_file.py | Write a function that writes a string to a text file (UTF8) and returns the number of characters written: | Mandatory |
 | 2-append_write.py | Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added: | Mandatory |
 | 3-to_json_string.py | Write a function that returns the JSON representation of an object (string): | Mandatory |
-|  |  | Mandatory |
+| 4-from_json_string.py | Write a function that returns an object (Python data structure) represented by a JSON string: | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -45,7 +45,7 @@
 | 1-write_file.py | La escritura de una cadena o secuencia de bytes (para archivos binarios) se realiza mediante el método write(). Este método devuelve el número de caracteres escritos en el archivo. | Mandatory |
 | 2-append_write.py | usamos write para el retorno de los caracteres contados y "a" en open->mode para agregar una cadena al final | Mandatory |
 | 3-to_json_string.py | La función json.dumps() convierte un objeto Python en una cadena json. | Mandatory |
-|  |  | Mandatory |
+| 4-from_json_string.py |  El método json.loads() se puede utilizar para analizar una cadena JSON válida y convertirla en un diccionario de Python | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
