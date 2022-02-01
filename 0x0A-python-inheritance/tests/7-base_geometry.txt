@@ -27,14 +27,14 @@ Pruebas:
 >>> bg.integer_validator("my_int", 0)
 Traceback (most recent call last):
 ...
-TypeError: my_int must be greater than 0
+ValueError: my_int must be greater than 0
 
 3 - Se supone que debe generar un tipo de error TypeError
 
 >>> bg.integer_validator("my_int", -10)
 Traceback (most recent call last):
 ...
-TypeError: my_int must be greater than 0
+ValueError: my_int must be greater than 0
 
 4- Se supone que debe generar un tipo de error TypeError
 
