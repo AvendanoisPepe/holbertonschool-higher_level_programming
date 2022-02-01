@@ -146,3 +146,10 @@ TypeError: 'bool' object is not iterable
 
 >>> isinstance(pepe, list)
 True
+
+13 - Instancia de tipo correcto
+
+>>> pepe = MyList()
+
+>>> type(pepe) == MyList
+True
