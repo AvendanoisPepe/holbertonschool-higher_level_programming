@@ -27,7 +27,7 @@
 |  Point | What is done at this point? | level |
 | ------------ | ------------ | ------------ |
 | 0-read_file.py | Write a function that reads a text file (UTF8) and prints it to stdout: | Mandatory |
-|  |  | Mandatory |
+| 1-write_file.py | Write a function that writes a string to a text file (UTF8) and returns the number of characters written: | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -42,7 +42,7 @@
 |  Point | own comments.  | level |
 | ------------ | ------------ | ------------ |
 | 0-read_file.py | Open abre el archivo y returna su objeto | Mandatory |
-|  |  | Mandatory |
+| 1-write_file.py | La escritura de una cadena o secuencia de bytes (para archivos binarios) se realiza mediante el método write(). Este método devuelve el número de caracteres escritos en el archivo. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
