@@ -26,6 +26,9 @@ Pruebas:
 >>> pepe.print_sorted()
 [1, 2, 4, 10]
 
+>>> print(pepe)
+[1, 10, 2, 4]
+
 2- Se prueba la lista vacia.
 
 >>> pepe = MyList()
@@ -53,6 +56,9 @@ Pruebas:
 
 >>> pepe.print_sorted()
 [-672, -2, -1, 0]
+
+>>> print(pepe)
+[0, -1, -672, -2]
 
 4 - Verificamos si mandamos NULL
 
@@ -94,6 +100,9 @@ NameError: name 'NaN' is not defined
 >>> pepe.print_sorted()
 ['e', 'e', 'p', 'p']
 
+>>> print(pepe)
+['p', 'e', 'p', 'e']
+
 8 - verificamos que pasa si madamos una cadena
 
 >>> pepe = MyList(["pepe"])
@@ -102,6 +111,9 @@ NameError: name 'NaN' is not defined
 ['pepe']
 
 >>> pepe.print_sorted()
+['pepe']
+
+>>> print(pepe)
 ['pepe']
 
 9 - Verificamos que pasa su mandamos floats
@@ -114,6 +126,9 @@ NameError: name 'NaN' is not defined
 >>> pepe.print_sorted()
 [1.01, 2.02, 3.06, 88.6]
 
+>>> print(pepe)
+[88.6, 2.02, 3.06, 1.01]
+
 10 - Verificamos que pasa si mandamos enteros con chars
 
 >>> pepe = MyList([88, "z"])
@@ -125,6 +140,9 @@ NameError: name 'NaN' is not defined
 Traceback (most recent call last):
 ...
 TypeError: '<' not supported between instances of 'str' and 'int'
+
+>>> print(pepe)
+[88, 'z']
 
 11 - Verificamos que pasa si mandamos un tipo de dato diferente
 
