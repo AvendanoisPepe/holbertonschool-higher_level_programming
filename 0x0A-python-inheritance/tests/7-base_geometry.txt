@@ -1,45 +1,110 @@
-"""xsad"
+::::::::::::
+Funcion
+::::::::::::
+
+Importacion del modulo:
+::::::::::::::::::::::::::::::::::::
+
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+:::::::::::::::::::::::::::::::::::: 
+
+Pruebas:
+:::::::::::::
+
+1 - Se supone que debe Funcionar
 
 >>> bg = BaseGeometry()
 
 >>> bg.integer_validator("my_int", 12)
 
->>> bg.integer_validator("width", 89)
+>>> bg.integer_validator("", 12)
 
->>> bg.integer_validator("name", "John")
+>>> bg.integer_validator("", (12))
+
+2 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", 0)
 Traceback (most recent call last):
 ...
-TypeError: name must be an integer
+ValueError: my_int must be greater than 0
 
->>> bg.integer_validator("age", 0)
+3 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", -10)
 Traceback (most recent call last):
 ...
-ValueError: age must be greater than 0
+ValueError: my_int must be greater than 0
 
->>> bg.integer_validator("men", -5)
+4- Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator()
 Traceback (most recent call last):
 ...
-ValueError: men must be greater than 0
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
->>> bg.integer_validator(None, -5)
+5 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", 12, 12)
 Traceback (most recent call last):
 ...
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+TypeError: integer_validator() takes 3 positional arguments but 4 were given
 
->>> bg.integer_validator("None", NaN)
+6 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", 12.3)
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+7 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", "pepe")
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+8 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", False)
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+9 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", None)
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+10 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", [0, 1, 2])
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+11 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", {0, 1, 2})
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+12 - Se supone que debe generar un tipo de error TypeError
+
+>>> bg.integer_validator("my_int", (0, 1, 2))
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+>>> bg.integer_validator(None, -12)
+Traceback (most recent call last):
+...
+ValueError: None must be greater than 0
+
+>>> bg.integer_validator(None, NaN)
 Traceback (most recent call last):
 ...
 NameError: name 'NaN' is not defined
-
->>> bg.integer_validator("None", "NaN")
-Traceback (most recent call last):
-...
-TypeError: None must be an integer
-
->>> bg.integer_validator("None", (1, 2, 3))
-Traceback (most recent call last):
-...
-TypeError: None must be an integer
-
->>> bg.integer_validator(1, 1)
