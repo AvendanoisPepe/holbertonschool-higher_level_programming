@@ -98,13 +98,3 @@ TypeError: my_int must be an integer
 Traceback (most recent call last):
 ...
 TypeError: my_int must be an integer
-
->>> bg.integer_validator(None, -12)
-Traceback (most recent call last):
-...
-ValueError: None must be greater than 0
-
->>> bg.integer_validator(None, NaN)
-Traceback (most recent call last):
-...
-NameError: name 'NaN' is not defined
