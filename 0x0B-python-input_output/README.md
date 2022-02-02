@@ -36,6 +36,8 @@
 | 7-add_item.py | Write a script that adds all arguments to a Python list, and then save them to a file: | Mandatory |
 | 8-class_to_json.py | Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object: | Mandatory |
 | 9-student.py | Write a class Student that defines a student by: | Mandatory |
+| 10-student.py | Write a class Student that defines a student by: (based on 9-student.py) | Mandatory |
+
 
 ------------
 
@@ -53,6 +55,7 @@
 | 7-add_item.py | Usando la logica de argv se soluciona todo papi | Mandatory |
 | 8-class_to_json.py | __dict__ retorna un diccionario de json. | Mandatory |
 | 9-student.py | Returna un diccionario de los atributos | Mandatory |
+| 10-student.py | Lo mismo que el anterior pero se asigna al nuevo diccionar  | Mandatory |
 
 ------------
 
