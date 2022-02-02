@@ -21,4 +21,3 @@ class Student():
                 if iterador in self.__dict__:
                     diccionario[iterador] = self.__dict__[iterador]
             return (diccionario)
-    
