@@ -34,7 +34,7 @@
 | 5-save_to_json_file.py | Write a function that writes an Object to a text file, using a JSON representation: | Mandatory |
 | 6-load_from_json_file.py | Write a function that creates an Object from a “JSON file”: | Mandatory |
 | 7-add_item.py | Write a script that adds all arguments to a Python list, and then save them to a file: | Mandatory |
-
+| 8-class_to_json.py | Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object: | Mandatory |
 ------------
 
 ## List of repository files:
@@ -49,6 +49,7 @@
 | 5-save_to_json_file.py | Combinamos lo aprendido anteriormente mandado la funcion json en el write | Mandatory |
 | 6-load_from_json_file.py | load() lee el archivo en formato json | Mandatory |
 | 7-add_item.py | Usando la logica de argv se soluciona todo papi | Mandatory |
+| 8-class_to_json.py | __dict__ retorna un diccionario de json. | Mandatory |
 
 ------------
 
