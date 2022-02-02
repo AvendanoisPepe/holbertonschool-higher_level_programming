@@ -35,6 +35,8 @@
 | 6-load_from_json_file.py | Write a function that creates an Object from a “JSON file”: | Mandatory |
 | 7-add_item.py | Write a script that adds all arguments to a Python list, and then save them to a file: | Mandatory |
 | 8-class_to_json.py | Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object: | Mandatory |
+| 9-student.py | Write a class Student that defines a student by: | Mandatory |
+
 ------------
 
 ## List of repository files:
@@ -50,6 +52,7 @@
 | 6-load_from_json_file.py | load() lee el archivo en formato json | Mandatory |
 | 7-add_item.py | Usando la logica de argv se soluciona todo papi | Mandatory |
 | 8-class_to_json.py | __dict__ retorna un diccionario de json. | Mandatory |
+| 9-student.py | Returna un diccionario de los atributos | Mandatory |
 
 ------------
 
