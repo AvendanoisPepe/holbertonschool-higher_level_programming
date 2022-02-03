@@ -81,3 +81,9 @@ class Rectangle(Base):
         print('\n' * self.y, end="")
         for height in range(self.height):
             print(' ' * self.x + '#' * self.width)
+    
+    def __str__(self) :
+        """Imprime la descripcion de un rectangulo"""
+        mensajito = ("[Rectangle] ({}) {}/{} - {}/{}"
+        .format(self.id, self.__x, self.__y, self.__width, self.__height))
+        return mensajito

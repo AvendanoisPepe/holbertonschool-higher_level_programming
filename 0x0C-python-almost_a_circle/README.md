@@ -24,7 +24,7 @@
 | models/rectangle.py | Write the class Rectangle that inherits from Base: | Mandatory |
 | models/rectangle.py | Update the class Rectangle by adding validation of all setter methods and instantiation (id excluded): | Mandatory |
 | models/rectangle.py | Update the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.| Mandatory |
-|  |  | Mandatory |
+| models/rectangle.py | Update the class Rectangle by overriding the __str__ method so that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height> | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 
@@ -39,7 +39,7 @@
 | models/rectangle.py | Generamos los getters and setters del rectangulo | Mandatory |
 | models/rectangle.py | Agregamos las condicionales correspondientes | Mandatory |
 | models/rectangle.py | Imprime un rectangulo con el caracter # | Mandatory |
-|  |  | Mandatory |
+| models/rectangle.py | Imprime la descripcion de un rectangulo | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 
