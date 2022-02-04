@@ -26,7 +26,16 @@
 | models/rectangle.py | Update the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.| Mandatory |
 | models/rectangle.py | Update the class Rectangle by overriding the __str__ method so that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height> | Mandatory |
 | models/rectangle.py | Update the class Rectangle by improving the public method def display(self): to print in stdout the Rectangle instance with the character # by taking care of x and y | Mandatory |
-|  |  | Mandatory |
+| models/rectangle.py | Update the class Rectangle by adding the public method def update(self, *args): that assigns an argument to each attribute: | Mandatory |
+| models/rectangle.py | Update the class Rectangle by updating the public method def update(self, *args): by changing the prototype to update(self, *args, **kwargs) that assigns a key/value argument to attributes: | Mandatory |
+| models/square.py | Write the class Square that inherits from Rectangle: | Mandatory |
+| models/square.py | Update the class Square by adding the public getter and setter size | Mandatory |
+| models/square.py | Update the class Square by adding the public method def update(self, *args, **kwargs) that assigns attributes: | Mandatory | 
+| models/rectangle.py | Update the class Rectangle by adding the public method def to_dictionary(self): that returns the dictionary representation of a Rectangle: | Mandatory |
+| models/square.py | Update the class Square by adding the public method def to_dictionary(self): that returns the dictionary representation of a Square: | Mandatory |
+| models/base.py | JSON is one of the standard formats for sharing data representation. | Mandatory |
+| models/base.py | Update the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file: | Mandatory |
+| models/base.py | Update the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file: | Mandatoy |
 
 ------------
 
@@ -41,7 +50,15 @@
 | models/rectangle.py | Imprime un rectangulo con el caracter # | Mandatory |
 | models/rectangle.py | Imprime la descripcion de un rectangulo | Mandatory |
 | models/rectangle.py | Ahora se maneja x y y en la funcion diplay | Mandatory |
-|  |  | Mandatory |
+| models/rectangle.py | Actualiza los atributos de la instancia | Mandatory |
+| models/rectangle.py | asigna un argumento clave/valor a los atributos: | Mandatory |
+| models/square.py | Generamos el constructor con los atributos heredados | Mandatory |
+| models/square.py | Generamos los getters and setters de size | Mandatory |
+| models/square.py | Actualiza los atributos de la instancia | Mandatory |
+| models/rectangle.py | Returna una representacion de el rectangle en un diccionario. | Mandatory |
+| models/square.py | Returna una representacion de el cuadrado en un diccionario. | Mandatory |
+| models/base.py | Representamos un objeto json en forma de cadena | Mandatory |
+| models/base.py | Creamos un archivo .json con contenido de cadenas de bibliotecas | Mandatory |
 
 ------------
 

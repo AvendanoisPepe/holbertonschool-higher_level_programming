@@ -81,9 +81,41 @@ class Rectangle(Base):
         print('\n' * self.y, end="")
         for height in range(self.height):
             print(' ' * self.x + '#' * self.width)
-    
-    def __str__(self) :
+
+    def __str__(self):
         """Imprime la descripcion de un rectangulo"""
-        mensajito = ("[Rectangle] ({}) {}/{} - {}/{}"
-        .format(self.id, self.__x, self.__y, self.__width, self.__height))
+        mensajito = "[Rectangle] ({}) {}/{} - {}/{}"\
+            .format(self.id, self.__x, self.__y, self.__width, self.__height)
         return mensajito
+
+    def update(self, *args, **kwargs):
+        """Actualiza los atributos de la instancia"""
+        if args is not None and len(args) != 0:
+            if len(args) > 1:
+                self.id = args[0]
+            if len(args) > 2:
+                self.width = args[1]
+            if len(args) > 3:
+                self.height = args[2]
+            if len(args) > 4:
+                self.x = args[3]
+            if len(args) > 5:
+                self.y = args[4]
+        else:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                if key == "width":
+                    self.width = value
+                if key == "height":
+                    self.height = value
+                if key == "x":
+                    self.x = value
+                if key == "y":
+                    self.y = value
+
+    def to_dictionary(self):
+        """Returna un diccionario de rectangle"""
+        diccionarito = {"id": self.id, "width": self.width,
+                        "height": self.height, "x": self.x, "y": self.y}
+        return diccionarito
