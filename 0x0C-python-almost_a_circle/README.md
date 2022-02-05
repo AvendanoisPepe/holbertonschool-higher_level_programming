@@ -36,6 +36,9 @@
 | models/base.py | JSON is one of the standard formats for sharing data representation. | Mandatory |
 | models/base.py | Update the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file: | Mandatory |
 | models/base.py | Update the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file: | Mandatoy |
+| models/base.py | Update the class Base by adding the static method def from_json_string(json_string): that returns the list of the JSON string representation json_string: | Mandatory |
+| models/base.py | Update the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set: | Mandatory |
+| models/base.py | Update the class Base by adding the class method def load_from_file(cls): that returns a list of instances: | Mandatory |
 
 ------------
 
@@ -59,6 +62,9 @@
 | models/square.py | Returna una representacion de el cuadrado en un diccionario. | Mandatory |
 | models/base.py | Representamos un objeto json en forma de cadena | Mandatory |
 | models/base.py | Creamos un archivo .json con contenido de cadenas de bibliotecas | Mandatory |
+| models/base.py | Devuelve la lista de la representación de cadena JSON | Mandatory |
+| models/base.py | Returnamos con datos ficticios la funcion update en created |  Mandatory |
+| models/base.py  | Usando dos metodos anteriores creamos un nuevo archivo con un diccionario de listas | Mandatory |
 
 ------------
 

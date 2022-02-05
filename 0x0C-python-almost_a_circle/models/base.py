@@ -2,6 +2,7 @@
 """Clase base que servira para todo el proyecto"""
 import json
 
+
 class Base():
     """La idea es evitar duplicidad de
     datos en las clases futuras"""
@@ -34,3 +35,36 @@ class Base():
                 lista.append(objeto.to_dictionary())
         with open(cls.__name__ + '.json', 'w') as myfile:
             myfile.write(Base.to_json_string(lista))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Devuelve la lista de la representación de cadena JSON"""
+        if json_string is None or json_string == "":
+            return []
+        return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """Returna una instancia con todos los
+        atributos establecidos"""
+        if cls.__name__ == 'Rectangle':
+            ficti = cls(1, 1)
+        elif cls.__name__ == 'Square':
+            ficti = cls(1)
+        ficti.update(**dictionary)
+        return ficti
+
+    @classmethod
+    def load_from_file(cls):
+        """Leemos el archivo a crear y recorremos
+        el contenido para usar el metodo create"""
+        try:
+            with open(cls.__name__ + ".json", "r") as myfile:
+                leer = myfile.read()
+                lista_dicci = cls.from_json_string(leer)
+                listas = []
+                for lis in lista_dicci:
+                    listas.append(cls.create(**lis))
+                return listas
+        except Exception:
+            return []
