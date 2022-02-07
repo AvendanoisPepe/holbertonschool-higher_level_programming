@@ -11,7 +11,7 @@ class Square(Rectangle):
     def __init__(self, size, x=0, y=0, id=None):
         """Constructor"""
         self.size = size
-        super().__init__(self.size, self.size, x, y, id)
+        super().__init__(size, size, x, y, id)
 
     def __str__(self):
         """Imprime la descripcion de un cuadrado"""
@@ -22,7 +22,7 @@ class Square(Rectangle):
     @property
     def size(self):
         """Retorna el valor del tamaño de la instancia"""
-        return self.__size
+        return self.__width
 
     @size.setter
     def size(self, value):
@@ -33,7 +33,6 @@ class Square(Rectangle):
             raise ValueError("width must be > 0")
         self.__width = value
         self.__height = value
-        self.__size = value
 
     def update(self, *args, **kwargs):
         """Actualiza los atributos de la instancia"""
