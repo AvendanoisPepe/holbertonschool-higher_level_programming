@@ -5,11 +5,10 @@ from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
 import unittest
-import json
-import os
+
 
 class TestRectangle(unittest.TestCase):
-    """"""
+    """Todos los posibles errores"""
 
     r3 = Rectangle(10, 2, 0, 0, 12)
 
@@ -28,7 +27,6 @@ class TestRectangle(unittest.TestCase):
         dim = Rectangle(2, 10)
         self.assertEqual(dim.width, 2)
         self.assertEqual(dim.height, 10)
-    
 
     def test_raise_height_negative(self):
         """Check Value error in height
@@ -48,7 +46,7 @@ class TestRectangle(unittest.TestCase):
     def test_raise_height_no_int(self):
         """Check Value error in height no int
             """
-        self.assertRaises(TypeError, Rectangle, 2, "hugo")
+        self.assertRaises(TypeError, Rectangle, 2, "pepe")
 
     def test_raise_x_negative(self):
         """Check Value error in x
@@ -63,12 +61,12 @@ class TestRectangle(unittest.TestCase):
     def test_raise_y_no_int(self):
         """Check Value error in y no int
             """
-        self.assertRaises(TypeError, Rectangle, 4, 8, 8, "Hugo")
+        self.assertRaises(TypeError, Rectangle, 4, 8, 8, "pepe")
 
     def test_raise_x_no_int(self):
         """Check Value error in x no int
             """
-        self.assertRaises(TypeError, Rectangle, 2, 2, "hugo")
+        self.assertRaises(TypeError, Rectangle, 2, 2, "pepe")
 
     """=========================================================="""
 
@@ -85,7 +83,7 @@ class TestRectangle(unittest.TestCase):
         """
         Check return function
         """
-        r2 = Rectangle(2, 10)
+        r2 = Rectangle(1, 1, 2, 10, 5)
         self.assertEqual(r2.id, 5)
 
     def test_id3n(self):
@@ -176,7 +174,7 @@ class TestRectangle(unittest.TestCase):
 
     def test_methode_str(self):
         """Check the value str"""
-        r5 = Rectangle(1, 2, 8, 7)
+        r5 = Rectangle(1, 2, 8, 7, 9)
         self.assertEqual(r5.__str__(), "[Rectangle] (9) 8/7 - 1/2")
 
     """=========================================================="""
@@ -184,9 +182,10 @@ class TestRectangle(unittest.TestCase):
 
     def test_methode_to_dictionary(self):
         """Check the value to_dictionary"""
-        r5 = Rectangle(1, 2, 8, 7)
+        r5 = Rectangle(1, 2, 8, 7, 10)
         self.assertEqual(
-            r5.to_dictionary(), {"width": 1, "height": 2, "x": 8, "y": 7, "id": 10}
+            r5.to_dictionary(),
+            {"width": 1, "height": 2, "x": 8, "y": 7, "id": 10}
         )
 
     """=========================================================="""
@@ -194,13 +193,13 @@ class TestRectangle(unittest.TestCase):
 
     def test_methode_update_args(self):
         """Check the value update"""
-        r5 = Rectangle(1, 2, 8, 7)
-        r5.update(16, 25)
-        self.assertEqual(r5.__str__(), "[Rectangle] (16) 8/7 - 25/2")
+        r5 = Rectangle(1, 2, 8, 7, 99)
+        r5.update(80, 1, 1, 1, 96)
+        self.assertEqual(r5.__str__(), "[Rectangle] (80) 1/96 - 1/1")
 
     def test_methode_update_kwargs(self):
         """Check the value update"""
-        r6 = Rectangle(1, 2, 8, 7)
+        r6 = Rectangle(1, 2, 8, 7, 12)
         r6.update(width=16, x=4)
         self.assertEqual(r6.__str__(), "[Rectangle] (12) 4/7 - 16/2")
 
@@ -213,12 +212,12 @@ class TestRectangle(unittest.TestCase):
         dict = r5.to_dictionary()
         self.assertEqual(
             r5.to_json_string(dict),
-            '{"width": 10, "height": 7, "x": 2, "y": 8, "id": 17}',
+            '{"id": 17, "width": 10, "height": 7, "x": 2, "y": 8}',
         )
         """call the methode without parametres"""
         self.assertRaises(TypeError, r5.to_json_string)
         self.assertEqual(
-            r5.to_json_string(("hugo", "machacon")), '["hugo", "machacon"]'
+            r5.to_json_string(("pepe", "avendano")), '["pepe", "avendano"]'
         )
 
 

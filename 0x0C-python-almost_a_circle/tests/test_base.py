@@ -99,8 +99,8 @@ class BaseTest(unittest.TestCase):
         with self.assertRaises(TypeError):
             Base.to_json_string([], 21)
 
-        s1 = ("to_json_string() missing 1 required positional argument: " +
-            "'list_dictionaries'")
+        s1 = ("to_json_string() missing 1 required\
+            positional argument: " + "'list_dictionaries'")
 
         with self.assertRaises(TypeError) as x:
             Base.to_json_string()
