@@ -343,3 +343,6 @@ class BaseTest(unittest.TestCase):
     def test_load_from_file_too_many_args(self):
         with self.assertRaises(TypeError):
             Base.load_from_file(2)
+
+    def __name__(self):
+        unittest.main()
