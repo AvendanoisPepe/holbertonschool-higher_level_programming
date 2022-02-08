@@ -74,33 +74,32 @@ class Base():
     def save_to_file_csv(cls, list_objs):
         """Creamos un archivo .csv y le agregamos
         su contenido"""
-        dic = [(i.to_dictionary()) for i in list_objs]
-
+        linea = []
         with open(cls.__name__ + ".csv", "w") as myfile:
-            var = csv.writer(myfile)
-            for iterador2 in dic:
-                for llave, valor in iterador2.items():
-                    var.writerow([llave, valor])
+            if list_objs is None or len(list_objs) <= 0:
+                myfile.write('[]')
+            else:
+                if cls.__name__ == 'Rectangle':
+                    linea = ["id", "width", "height", "x", "y"]
+                if cls.__name__ == 'Square':
+                    linea = ["id", "size", "x", "y"]
+            var = csv.DictWriter(myfile, fieldnames=linea)
+            for iterador2 in list_objs:
+                var.writerow(iterador2.to_dictionary())
 
     @classmethod
     def load_from_file_csv(cls):
         """Lee la funcion save"""
-        var_ctr = 5 if cls.__name__ == "Rectangle" else 4
-        reinaldo = {}
-        cont = 1
-        lista = []
         try:
             with open(cls.__name__ + ".csv", "r") as myfile:
-                readeer = csv.reader(myfile)
-                for iterador in readeer:
-                    if cont <= var_ctr:
-                        reinaldo[iterador[0]] = int(iterador[1])
-                        cont += 1
-                    else:
-                        lista.append(reinaldo.copy())
-                        reinaldo[iterador[0]] = iterador[1]
-                        cont = 1
-                lista.append(reinaldo.copy())
-                return [cls.create(**i) for i in lista]
+                if cls.__name__ == 'Rectangle':
+                    linea = ["id", "width", "height", "x", "y"]
+                if cls.__name__ == 'Square':
+                    linea = ["id", "size", "x", "y"]
+                readeer = csv.DictReader(myfile, fieldnames=linea)
+                dcts = [dict([clave, int(valor)]
+                        for clave, valor in ltera.items())
+                        for ltera in readeer]
+                return [cls.create(**dicci) for dicci in dcts]
         except Exception:
             return []
