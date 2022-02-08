@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """Clase base que servira para todo el proyecto"""
+from asyncore import write
+from calendar import c
 import json
-
+import csv
 
 class Base():
     """La idea es evitar duplicidad de
@@ -66,5 +68,40 @@ class Base():
                 for lis in lista_dicci:
                     listas.append(cls.create(**lis))
                 return listas
+        except Exception:
+            return []
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """Creamos un archivo .csv y le agregamos
+        su contenido"""
+        dic = [(i.to_dictionary()) for i in list_objs]
+
+        with open(cls.__name__ + ".csv", "w") as myfile:
+            var = csv.writer(myfile)
+            for iterador2 in dic:
+                for llave, valor in iterador2.items():
+                    var.writerow([llave, valor])
+    
+    @classmethod
+    def load_from_file_csv(cls):
+        """Lee la funcion save"""
+        var_ctr = 5 if cls.__name__ == "Rectangle" else 4
+        reinaldo  = {}
+        cont = 1
+        lista = []
+        try:
+            with open(cls.__name__ + ".csv", "r") as myfile:
+                readeer = csv.reader(myfile)
+                for iterador in readeer:
+                    if cont <= var_ctr:
+                        reinaldo[iterador[0]] = int(iterador[1])
+                        cont += 1
+                    else:   
+                        lista.append(reinaldo.copy())
+                        reinaldo[iterador[0]] = iterador[1]
+                        cont = 1
+                lista.append(reinaldo.copy())
+                return [cls.create(**i) for i in lista]
         except Exception:
             return []
