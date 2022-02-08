@@ -39,6 +39,7 @@
 | models/base.py | Update the class Base by adding the static method def from_json_string(json_string): that returns the list of the JSON string representation json_string: | Mandatory |
 | models/base.py | Update the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set: | Mandatory |
 | models/base.py | Update the class Base by adding the class method def load_from_file(cls): that returns a list of instances: | Mandatory |
+| models/base.py | Update the class Base by adding the class methods def save_to_file_csv(cls, list_objs): and def load_from_file_csv(cls): that serializes and deserializes in CSV: | Advanced |
 
 ------------
 
@@ -65,6 +66,7 @@
 | models/base.py | Devuelve la lista de la representación de cadena JSON | Mandatory |
 | models/base.py | Returnamos con datos ficticios la funcion update en created |  Mandatory |
 | models/base.py  | Usando dos metodos anteriores creamos un nuevo archivo con un diccionario de listas | Mandatory |
+|  models/base.py | Generamos dos funciones en las cuales generamos un archivo csv | Advanced |
 
 ------------
 
