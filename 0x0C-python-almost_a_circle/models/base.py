@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """Clase base que servira para todo el proyecto"""
-from asyncore import write
-from calendar import c
 import json
 import csv
+
 
 class Base():
     """La idea es evitar duplicidad de
@@ -82,12 +81,12 @@ class Base():
             for iterador2 in dic:
                 for llave, valor in iterador2.items():
                     var.writerow([llave, valor])
-    
+
     @classmethod
     def load_from_file_csv(cls):
         """Lee la funcion save"""
         var_ctr = 5 if cls.__name__ == "Rectangle" else 4
-        reinaldo  = {}
+        reinaldo = {}
         cont = 1
         lista = []
         try:
@@ -97,7 +96,7 @@ class Base():
                     if cont <= var_ctr:
                         reinaldo[iterador[0]] = int(iterador[1])
                         cont += 1
-                    else:   
+                    else:
                         lista.append(reinaldo.copy())
                         reinaldo[iterador[0]] = iterador[1]
                         cont = 1
