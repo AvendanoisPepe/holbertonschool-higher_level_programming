@@ -83,7 +83,6 @@
 
 # Author
 
-
 ## Juan Sebastian Avendaño Gonzalez:
 - Git: https://github.com/AvendanoisPepe
 - Twitter: https://twitter.com/Sebastian_Aven
