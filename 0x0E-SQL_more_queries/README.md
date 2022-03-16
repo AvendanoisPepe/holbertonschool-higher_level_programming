@@ -32,7 +32,7 @@
 | 8-cities_of_california_subquery.sql | Write a script that lists all the cities of California that can be found in the database hbtn_0d_usa. | Mandatory |
 | 9-cities_by_state_join.sql | Write a script that lists all cities contained in the database hbtn_0d_usa. | Mandatory |
 | 10-genre_id_by_show.sql | Write a script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked. | Mandatory |
-|  |  | Mandatory |
+| 11-genre_id_all_shows.sql | Write a script that lists all shows contained in the database hbtn_0d_tvshows. | Mandatory |
 
 ------------
 
