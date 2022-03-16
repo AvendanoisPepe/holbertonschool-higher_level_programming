@@ -35,7 +35,7 @@
 | 11-genre_id_all_shows.sql | Write a script that lists all shows contained in the database hbtn_0d_tvshows. | Mandatory |
 | 12-no_genre.sql | Write a script that lists all shows contained in hbtn_0d_tvshows without a genre linked. | Mandatory |
 | 13-count_shows_by_genre.sql | Write a script that lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each. | Mandatory |
-|  |  | Mandatory |
+| 14-my_genres.sql | Write a script that uses the hbtn_0d_tvshows database to lists all genres of the show Dexter. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 
