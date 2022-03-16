@@ -24,7 +24,7 @@
 | 0-privileges.sql | Write a script that lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost). | Mandatory |
 | 1-create_user.sql | Write a script that creates the MySQL server user user_0d_1. | Mandatory |
 | 2-create_read_user.sql | Write a script that creates the database hbtn_0d_2 and the user user_0d_2. | Mandatory |
-|  |  | Mandatory |
+| 3-force_name.sql | Write a script that creates the table force_name on your MySQL server.| Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
