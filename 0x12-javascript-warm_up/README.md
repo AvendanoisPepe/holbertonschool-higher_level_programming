@@ -41,7 +41,7 @@
 | 9-add.js | Write a script that prints the addition of 2 integers | Mandatory |
 | 10-factorial.js | Write a script that computes and prints a factorial | Mandatory |
 | 11-second_biggest.js | Write a script that searches the second biggest integer in the list of arguments. | Mandatory |
-|  |  | Mandatory |
+| 12-object.js | Update this script to replace the value 12 with 89: | Mandatory |
 |  |  | Mandatory |
 
 ------------
