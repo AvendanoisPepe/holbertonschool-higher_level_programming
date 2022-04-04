@@ -40,7 +40,7 @@
 | 8-square.js | Write a script that prints a square | Mandatory |
 | 9-add.js | Write a script that prints the addition of 2 integers | Mandatory |
 | 10-factorial.js | Write a script that computes and prints a factorial | Mandatory |
-|  |  | Mandatory |
+| 11-second_biggest.js | Write a script that searches the second biggest integer in the list of arguments. | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 
@@ -63,6 +63,10 @@
 - https://www.youtube.com/watch?v=vZBCTc9zHtI
 - https://www.lawebdelprogramador.com/foros/JavaScript/569076-Que-es-isNaN.html
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+- https://www.w3schools.com/jsref/jsref_map.asp
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
 ------------
 
 # Author
