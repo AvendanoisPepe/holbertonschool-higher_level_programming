@@ -35,6 +35,11 @@
 | 3-value_argument.js | Write a script that prints the first argument passed to it: | Mandatory |
 | 4-concat.js | Write a script that prints two arguments passed to it, in the following format: “ is ” | Mandatory |
 | 5-to_integer.js | Write a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer: | Mandatory |
+| 6-multi_languages_loop.js | Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop | Mandatory |
+| 7-multi_c.js | Write a script that prints x times “C is fun” | Mandatory |
+| 8-square.js | Write a script that prints a square | Mandatory |
+| 9-add.js | Write a script that prints the addition of 2 integers | Mandatory |
+|  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
@@ -56,7 +61,8 @@
 - https://darrenderidder.github.io/talks/ModulePatterns/#/
 - https://www.youtube.com/watch?v=sjyJBL5fkp8
 - https://www.youtube.com/watch?v=vZBCTc9zHtI
-- 
+- https://www.lawebdelprogramador.com/foros/JavaScript/569076-Que-es-isNaN.html
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 ------------
 
 # Author
