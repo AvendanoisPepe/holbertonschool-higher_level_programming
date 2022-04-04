@@ -1,4 +1,4 @@
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg)
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/303/Javascript-535.png.jpeg)
 
 # 0x12. JavaScript - Warm up 💻   💻   💻 
 
@@ -42,7 +42,7 @@
 | 10-factorial.js | Write a script that computes and prints a factorial | Mandatory |
 | 11-second_biggest.js | Write a script that searches the second biggest integer in the list of arguments. | Mandatory |
 | 12-object.js | Update this script to replace the value 12 with 89: | Mandatory |
-|  |  | Mandatory |
+| 13-add.js | Write a function that returns the addition of 2 integers. | Mandatory |
 
 ------------
 
