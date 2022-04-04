@@ -39,7 +39,7 @@
 | 7-multi_c.js | Write a script that prints x times “C is fun” | Mandatory |
 | 8-square.js | Write a script that prints a square | Mandatory |
 | 9-add.js | Write a script that prints the addition of 2 integers | Mandatory |
-|  |  | Mandatory |
+| 10-factorial.js | Write a script that computes and prints a factorial | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
 |  |  | Mandatory |
