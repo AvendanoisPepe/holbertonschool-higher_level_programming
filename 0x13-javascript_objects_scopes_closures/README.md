@@ -32,6 +32,7 @@
 | 8-esrever.js | Write a function that returns the reversed version of a list: | Mandatory |
 | 9-logme.js | Write a function that prints the number of arguments already printed and the new argument value. (see example below) | Mandatory |
 | 10-converter.js | Write a function that converts a number from base 10 to another base passed as argument: | Mandatory |
+| 100-map.js | Write a script that imports an array and computes a new array. | Advanced |
 
 ------------
 
