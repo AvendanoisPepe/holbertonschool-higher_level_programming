@@ -6,13 +6,13 @@ request(process.argv[2], function (err, response, body) {
   if (err) {
     console.log(err);
   } else {
-      for (const pelicula of JSON.parse(body).results){
-        for (const coincidencia of pelicula.characters){    
-            if (coincidencia.includes(id)) {
-                iterador++;
-            }
+    for (const pelicula of JSON.parse(body).results) {
+      for (const coincidencia of pelicula.characters) {
+        if (coincidencia.includes(id)) {
+          iterador++;
         }
+      }
     }
-      console.log(iterador);
+    console.log(iterador);
   }
 });
