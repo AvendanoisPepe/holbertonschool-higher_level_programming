@@ -22,7 +22,7 @@
 | 2-statuscode.js | Write a script that display the status code of a GET request. | Mandatory |
 | 3-starwars_title.js | Write a script that prints the title of a Star Wars movie where the episode number matches a given integer. | Mandatory |
 | 4-starwars_count.js | Write a script that prints the number of movies where the character “Wedge Antilles” is present. | Mandatory |
-|  |  | Mandatory |
+| 5-request_store.js | Write a script that gets the contents of a webpage and stores it in a file. | Mandatory |
 |  |  | Mandatory |
 
 ------------
@@ -39,6 +39,9 @@
 - https://www.geeksforgeeks.org/node-js-fs-writefile-method/
 - https://developer.mozilla.org/en-US/docs/Web/API/Request/Request
 - https://developer.mozilla.org/es/docs/Web/API/Console/error
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/for...of
+- https://stackoverflow.com/questions/17518796/difference-between-results-function-and-result-function-in-javascript-jquery
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
 ------------
 
