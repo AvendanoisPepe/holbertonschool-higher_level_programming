@@ -34,7 +34,9 @@
 | 7-script.js | Write a JavaScript script that fetches the character name from this URL: https://swapi-api.hbtn.io/api/people/5/?format=json | Mandatory |
 | 8-script.js | Write a JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.hbtn.io/api/films/?format=json| Mandatory |
 |  | Write a JavaScript script that fetches from https://fourtonfish.com/hellosalut/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello. | Mandatory |
-|  |  | Mandatory |
+| 100-script.js | Write a JavaScript script that updates the text color of the <header> element to red (#FF0000): | Advanced |
+| 101-script.js | Write a JavaScript script that adds, removes and clears LI elements from a list when the user clicks: | Advanced |
+
 
 ------------
 
@@ -62,6 +64,11 @@
 - https://www.todo-argentina.net/cursos/jquery/pagina7.php
 - https://api.jquery.com/jquery.get/
 - https://www.sitepoint.com/jquery-each-function-examples/
+- https://developer.mozilla.org/es/docs/Web/API/GlobalEventHandlers/onload
+- https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
+- https://api.jquery.com/last/
+
 ------------
 
 # Author
