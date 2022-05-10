@@ -5,13 +5,13 @@ consulta"""
 if __name__ == '__main__':
 
     import MySQLdb
-    import sys
+    from sys import argv
 
-    db = MySQLdb.connect(host='localhost', port=3306, user=sys.argv[1],
-                         passwd=sys.argv[2], db=sys.argv[3])
+    db = MySQLdb.connect(host='localhost', port=3306, user=argv[1],
+                         passwd=argv[2], db=argv[3])
     cu = db.cursor()
     cu.execute("SELECT * FROM states WHERE name LIKE '{:s}' ORDER BY id ASC".
-               format(sys.argv[4]))
+               format(argv[4]))
     rows = cu.fetchall()
     for fila in rows:
         print(fila)
