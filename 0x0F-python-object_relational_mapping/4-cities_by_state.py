@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """consulta multitabla"""
 
 if __name__ == '__main__':
@@ -14,4 +14,4 @@ if __name__ == '__main__':
                 )
     rows = cur.fetchall()
     for fila in rows:
-        print fila
+        print(fila)
