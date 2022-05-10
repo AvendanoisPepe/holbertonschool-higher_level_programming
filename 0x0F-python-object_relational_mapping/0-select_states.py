@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Conectamos con la bd, usamos cursor para generar el entorno de trabajo,
 seguido usamos el execute para generar la consulta y con fetchall obtenemos el
 resultado"""
@@ -14,6 +14,6 @@ if __name__ == '__main__':
     cur.execute('SELECT * FROM states ORDER BY id ASC;')
     rows = cur.fetchall()
     for fila in rows:
-        print fila
+        print(fila)
     cur.close()
     db.close()
