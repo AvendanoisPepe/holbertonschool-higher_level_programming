@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Una consulta multitabla con parametro"""
 
 if __name__ == '__main__':
@@ -13,4 +13,4 @@ if __name__ == '__main__':
     c.state_id = s.id WHERE s.name = %(fil)s\
     ORDER BY c.id', {'fil': sys.argv[4]})
     rows = cur.fetchall()
-    print ', '.join([fila[0] for fila in rows])
+    print (', '.join([fila[0] for fila in rows]))
