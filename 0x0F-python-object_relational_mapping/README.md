@@ -58,6 +58,7 @@
 - https://es.stackoverflow.com/questions/127122/usar-variables-al-formular-consulta-para-filtrar-datos-de-una-tabla
 - https://www.w3schools.com/python/ref_string_join.asp
 - https://stackoverflow.com/questions/18110033/getting-first-row-from-sqlalchemy
+- https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_orm_updating_objects.htm
 
 ------------
 
