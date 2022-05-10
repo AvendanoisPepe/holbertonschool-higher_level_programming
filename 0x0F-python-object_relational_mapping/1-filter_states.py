@@ -14,4 +14,4 @@ if __name__ == '__main__':
                 )
     rows = cur.fetchall()
     for fila in rows:
-        print (fila)
+        print(fila)
