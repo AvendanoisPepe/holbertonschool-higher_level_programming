@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Un parametro con where para la consulta"""
 
 if __name__ == '__main__':
@@ -13,4 +13,4 @@ if __name__ == '__main__':
                 {'fil': sys.argv[4]})
     rows = cur.fetchall()
     for fila in rows:
-        print fila
+        print(fila)
