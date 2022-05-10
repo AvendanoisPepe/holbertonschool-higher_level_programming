@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """lo mismo que el anterior solo que ahora unamos LIKE para mostrar todos los
 resultados que comiences con N"""
 
@@ -14,4 +14,4 @@ if __name__ == '__main__':
                 )
     rows = cur.fetchall()
     for fila in rows:
-        print fila
+        print (fila)
