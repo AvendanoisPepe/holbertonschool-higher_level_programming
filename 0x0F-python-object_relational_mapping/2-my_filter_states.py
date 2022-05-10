@@ -15,3 +15,5 @@ if __name__ == '__main__':
     rows = cu.fetchall()
     for fila in rows:
         print(fila)
+    cu.close()
+    db.close()
