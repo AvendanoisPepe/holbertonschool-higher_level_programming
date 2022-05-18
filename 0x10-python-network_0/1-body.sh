@@ -1,3 +1,3 @@
 #!/bin/bash
 #tengo sueño
-curl -sI "$1"
+curl -sL "$1"
