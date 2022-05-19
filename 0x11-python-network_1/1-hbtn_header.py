@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Escriba una secuencia de comandos de Python que tome una URL, envíe una solicitud a la URL y muestre el valor de la variable X-Request-Id que se encuentra en el encabezado de la respuesta.
+"""Escriba una secuencia de comandos de Python que tome una URL,
+envíe una solicitud a la URL y muestre el valor de la variable
+X-Request-Id que se encuentra en el encabezado de la respuesta.
 """
 
 if __name__ == "__main__":
