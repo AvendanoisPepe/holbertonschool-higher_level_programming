@@ -3,7 +3,7 @@
 
 
 def find_peak(list_of_integers):
-    """Devuelve un número máximo de una lista desordenada"""
+    """Devuelve un número máximo de una lista"""
     
     if len(list_of_integers) < 1:
         return None
