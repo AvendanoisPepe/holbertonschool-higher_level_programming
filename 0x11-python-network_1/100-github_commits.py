@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-El personal de Holberton School evalúa a los candidatos que 
+El personal de Holberton School evalúa a los candidatos que
 solicitan un puesto administrativo con múltiples desafíos
 técnicos, como este:
 """
